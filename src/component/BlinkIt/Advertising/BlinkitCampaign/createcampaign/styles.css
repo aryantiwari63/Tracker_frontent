@@ -1,0 +1,295 @@
+.form-control-blinkit {
+  width: 20%;
+  background: #ffffff;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px !important;
+  padding: 9px 12px;
+  height: auto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.blinkit_rightpanel__selected-box {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  background-color: #f7fff9;
+  height: 100%;
+}
+.blinkit_rightpanel__selected-title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: sticky;
+  font-size: 14px;
+  color: rgb(54, 61, 65);
+  z-index: 1;
+  margin-top: 5px;
+}
+.blinkit_leftpanel__selected-title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  font-size: 14px;
+  color: rgb(54, 61, 65);
+  height: 50px;
+  z-index: 1;
+}
+.blinkit_rightpanel__productlist-box {
+  display: flex;
+  text-align: left;
+  height: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  color: rgb(54, 61, 65) !important;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  margin-bottom: 8px;
+  padding: 8px 8px 0px;
+}
+
+.blinkit_rightpanel__productlist-card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #80808052;
+}
+
+.blinkit_rightpanel__productlist-box {
+  height: 86%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.blinkit_no_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.blinkit_right_panel_header {
+  display: flex;
+  align-items: center;
+  padding: 10px 1rem 0px 12px;
+  gap: 200px;
+  justify-content: start;
+}
+.custom-max-w-md {
+  max-width: 53rem;
+}
+.blinkit_leftpanel {
+  width: 100%;
+  border: 1px solid rgb(214, 216, 217);
+  padding: 10px;
+  background-color: #f7fff9;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  z-index: 90;
+}
+.blinkit_leftpanel_stepthree {
+  width: 100%;
+  border: 1px solid rgb(214, 216, 217);
+  padding: 10px;
+  background-color: #f7fff9;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  z-index: 90;
+  height: 100%;
+}
+.blinkit_leftpanel-brand {
+  font-size: 14px;
+  color: #424242;
+  font-weight: 500;
+
+  margin-bottom: 9px;
+  line-height: 1.42857143;
+  z-index: 100;
+}
+.blinkit_leftpanel__selectdropdown {
+  width: 100%;
+  border-radius: 0.375rem;
+  padding: 0.375rem;
+  border: 1px solid #ccc;
+}
+.leftpanel_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.blinkit_listcard__product {
+  display: flex;
+  overflow: hidden;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+.blinkit_listcard__product_div {
+  display: flex;
+  color: rgb(96, 234, 147);
+  margin: 4px 4px;
+  gap: 5px;
+}
+.blinkit_listcard {
+  z-index: 1;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 6px;
+  border: 1px solid rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  width: 100%;
+}
+.blinkit_listcard_container {
+  display: flex;
+  gap: 40px;
+  padding: 5px 5px;
+}
+.blinkit_listproduct__image {
+  width: 50px;
+  height: 50px;
+}
+.blinkit_listcard__producttitle {
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.blinkit_product_custom-checkbox {
+  width: 16px;
+  height: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: 2px solid green;
+  cursor: pointer;
+  position: relative;
+}
+
+.blinkit_product_custom-checkbox:checked {
+  background-color: transparent;
+  border-color: green;
+}
+
+.blinkit_product_custom-checkbox.partial-checkbox:checked::before {
+  content: "✔";
+  color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blinkit_product_custom-checkbox.full-checkbox:checked {
+  background-color: green;
+  border-color: transparent;
+}
+
+.blinkit_product_custom-checkbox.full-checkbox:checked::before {
+  content: "✔";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Tooltip CSS */
+.tooltip-container {
+  position: relative; /* Position relative to place the tooltip */
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 347px; /* Adjust width as needed */
+  background-color: black; /* Background color of the tooltip */
+  color: #fff; /* Text color */
+  text-align: center; /* Center text */
+  border-radius: 6px; /* Rounded corners */
+  padding: 5px; /* Padding */
+  position: absolute; /* Position the tooltip */
+  z-index: 1; /* Ensure tooltip appears above other elements */
+  bottom: 125%; /* Position above the icon */
+  left: 50%; /* Center the tooltip horizontally */
+  margin-left: -60px; /* Adjust to center the tooltip */
+  opacity: 0; /* Hide the tooltip */
+  transition: opacity 0.3s; /* Fade-in effect */
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible; /* Show the tooltip on hover */
+  opacity: 1; /* Make the tooltip fully visible */
+}
+.bid-booster-header {
+  background-color: rgb(13, 74, 178);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+/* .bid-booster-header:hover {
+  background-color: deepskyblue;
+} */
+
+.bid-booster-header::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: 125%; /* Show tooltip above the button */
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s,
+    visibility 0.3s;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.bid-booster-header:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.blinkit_searchproductfield__options {
+  height: 29rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}

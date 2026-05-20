@@ -1,0 +1,137 @@
+/* HelpdeskIcon.css */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.helpdesk-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px 6px 15px 15px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 50;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+
+  
+  .help-text {
+    font-size: 16px;
+  }
+
+  .helpdesk-wrapper {
+    position: fixed;
+    bottom: 60px; /* Moved up by increasing the bottom value */
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 200; /* Set z-index */
+  }
+  
+  .helpdesk-container:hover {
+    background-color: #333;
+  }
+  
+  .helpdesk-container i {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .help-text {
+    font-size: 16px;
+  }
+  
+  .helpdesk-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .helpdesk-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .btn-screenshot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px;
+    font-size: 16px;
+    background-color: #ffffff; /* White background */
+    color: #6c757d; /* Grey text */
+    border: 1px solid #d7d9da; /* Grey border */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 100%;
+  }
+  
+  .btn-screenshot svg {
+    margin-right: 8px;
+  }
+  
+  .btn-screenshot:hover {
+    background-color: #f8f9fa; /* Slightly off-white on hover */
+    color: #343a40; /* Darker grey text on hover */
+  }
+
+  /* Define the animation */
+
+/* Apply the animation to the helpdesk-form */
+.helpdesk-form {
+  background-color: white;
+  width: 328px;
+  height: 432px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  z-index: 100;
+  opacity: 0; /* Start with opacity 0 for transition */
+  transform: translateY(20px); /* Start with translateY for transition */
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out; /* Smooth transition */
+}
+
+.helpdesk-form.enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideUp 0.3s ease-out forwards; /* Apply slide up animation */
+}
+
+.helpdesk-form.exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.recaptcha-container {
+  transform: scale(0.86); /* Adjust this value to fit the width */
+  transform-origin: 0 0; /* Makes sure scaling starts from the top-left corner */
+  width: 100px; /* Define the final width */
+}
+
+.customBoxHelpdesk.rmsc .dropdown-container {
+  height: 34px !important;
+}
+

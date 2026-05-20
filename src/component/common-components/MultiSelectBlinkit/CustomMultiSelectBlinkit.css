@@ -1,0 +1,45 @@
+.rmsc .dropdown-container {
+  z-index: 1 ;
+}
+
+.rmsc--blinkit .dropdown-content{
+  z-index: 200;
+}
+
+/* Checkbox checked state */
+.rmsc--blinkit .dropdown-content .item-renderer input[type="checkbox"]:checked {
+  background-color: green; /* Green background when checked */
+  border-color: transparent; /* Green border when checked */
+}
+
+/* Add checkmark when checked */
+.rmsc--blinkit .item-renderer input:checked::after {
+  content: "\2714";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1px 2px;
+  background-color: green;
+  line-height: 14px;
+}
+
+/* Active or focused option (remove blue outline) */
+.rmsc--blinkit .dropdown-content .item-renderer:focus,
+.rmsc--blinkit .dropdown-content .item-renderer.active {
+  outline: none; /* Remove default outline */
+  border: 2px solid green; /* Add a green border */
+}
+
+.rmsc--blinkit {
+  --rmsc-main: green !important;
+  --rmsc-border: green !important;
+}
+
+.rmsc--blinkit .select-item:hover {
+  background-color: #11b07a;
+}
+
+.rmsc--blinkit .item-renderer input {
+  position: relative;
+}

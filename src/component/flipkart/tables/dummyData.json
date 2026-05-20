@@ -1,0 +1,107 @@
+{
+    "draw": 2,
+    "iTotalRecords": 79,
+    "iTotalDisplayRecords": 79,
+    "aaData": [
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PCA - Flipkart - V2 - Jan 23",
+            "segment": "<span class=\"pca\">PCA<\/span>",
+            "spend": "208784",
+            "views": "640107",
+            "clicks": "16790",
+            "CTR": "0.026229989673601444",
+            "orders": "3650",
+            "total_revenue": "829229"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "193988",
+            "views": "451230",
+            "clicks": "16416",
+            "CTR": "0.03638055980320457",
+            "orders": "3771",
+            "total_revenue": "795406"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Tea 750 - Jan 23 ",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "179180",
+            "views": "333256",
+            "clicks": "10540",
+            "CTR": "0.031627337542309814",
+            "orders": "2119",
+            "total_revenue": "707154"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Tea Keyword - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "142353",
+            "views": "613155",
+            "clicks": "13577",
+            "CTR": "0.02214285131818219",
+            "orders": "2366",
+            "total_revenue": "813586"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PCA - Flipkart - V2 Premium - Jan 23",
+            "segment": "<span class=\"pca\">PCA<\/span>",
+            "spend": "140820",
+            "views": "667345",
+            "clicks": "14082",
+            "CTR": "0.02110152919404506",
+            "orders": "1807",
+            "total_revenue": "748224"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Tea Gold - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "138285",
+            "views": "504276",
+            "clicks": "9219",
+            "CTR": "0.01828165528401114",
+            "orders": "1615",
+            "total_revenue": "564494"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Green - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "131264",
+            "views": "915665",
+            "clicks": "8204",
+            "CTR": "0.008959608590477959",
+            "orders": "1100",
+            "total_revenue": "479686"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PCA - Flipkart - V2 Premium Keyword - Jan 23",
+            "segment": "<span class=\"pca\">PCA<\/span>",
+            "spend": "119565",
+            "views": "464840",
+            "clicks": "9615",
+            "CTR": "0.02068453661474916",
+            "orders": "1376",
+            "total_revenue": "541817"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Premium - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "119416",
+            "views": "435569",
+            "clicks": "10856",
+            "CTR": "0.024923720466791713",
+            "orders": "2108",
+            "total_revenue": "868435"
+        },
+        {
+            "campaign_name": "<img src=\"https:\/\/www.ebuxautomation.com\/AMSDashboard\/upload\/avatar\/active-circle.svg\"class=\"user-image\" alt=\"\"> PLA - Flipkart - V2 Tea Premium Keyword - Jan 23",
+            "segment": "<span class=\"pla\">PLA<\/span>",
+            "spend": "113243",
+            "views": "340775",
+            "clicks": "8711",
+            "CTR": "0.025562321179664",
+            "orders": "1877",
+            "total_revenue": "773636"
+        }
+    ]
+}

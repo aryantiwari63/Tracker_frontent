@@ -1,0 +1,1509 @@
+{
+    "explorerheader": [
+        {
+            "id": 1,
+            "name": "Date",
+            "value": "date"
+          },
+        {
+            "id": 2,
+            "name": "Impr",
+            "value": "impression"
+        },
+        {
+            "id": 3,
+            "name": "Clk",
+            "value": "click"
+        },
+        {
+            "id": 4,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 5,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 6,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 7,
+            "name": "CPA",
+            "value": "cpa"
+        },
+        {
+            "id": 8,
+            "name": "CVR",
+            "value": "cvr"
+        },
+        {
+            "id": 9,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 10,
+            "name": "Sale Units",
+            "value": "sale_units"
+        }
+       ],
+    "body": [
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+           
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        },
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "363.8K",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        }
+    ],
+    "footer": [
+        {
+            "date": "WED,Jun-28-2023",
+            "impression": "",
+          "click":"821",
+           "ctr":"0.23%",
+            "spend": "15.2K",
+            "cpc": "18.24",
+            "cpa": "108.88",
+            "cvr": "17.78%",
+            "orders": "146",
+            "sale_units": "163"
+        }
+    ],
+    "advertiseadgroupheader": [
+        {
+            "id": 1,
+            "name": "Adgroup Name",
+            "value": "adgroup_name"
+        },
+        {
+            "id": 2,
+            "name": "State",
+            "value": "state"
+        },
+        {
+            "id": 3,
+            "name": "Type",
+            "value": "type"
+        },
+        {
+            "id": 4,
+            "name": "Campaign Name",
+            "value": "campaign_name"
+        },
+        {
+            "id": 5,
+            "name": "Targeting Type",
+            "value": "targeting_type"
+        },
+        {
+            "id": 6,
+            "name": "Profile Name",
+            "value": "profile_name"
+        },
+        {
+            "id": 7,
+            "name": "Ads",
+            "value": "ads"
+        },
+        {
+            "id": 8,
+            "name": "Add Time",
+            "value": "addtime"
+        },
+        {
+            "id": 9,
+            "name": "Target",
+            "value": "target"
+        },
+        {
+            "id": 10,
+            "name": "Default Bid",
+            "value": "default_bid"
+        },
+        {
+            "id": 11,
+            "name": "Impression",
+            "value": "impression"
+        },
+        {
+            "id": 12,
+            "name": "Click",
+            "value": "clicks"
+        },
+        {
+            "id": 13,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 14,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 15,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 16,
+            "name": "cumulativeReach",
+            "value": "cumulativereach"
+        },
+        {
+            "id": 17,
+            "name": "avgImpressionsFrequency",
+            "value": "avgimpressionsfrequency"
+        },
+        {
+            "id": 18,
+            "name": "Sales",
+            "value": "sales"
+        },
+        {
+            "id": 19,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 20,
+            "name": "SaleUnits",
+            "value": "salesunits"
+        },
+        {
+            "id": 21,
+            "name": "OtherSales",
+            "value": "othersales"
+        },
+        {
+            "id": 22,
+            "name": "OtherSalesPercent",
+            "value": "othersalespercent"
+        },
+        {
+            "id": 23,
+            "name": "CVR",
+            "value": "cvr"
+        },
+        {
+            "id": 24,
+            "name": "CPA",
+            "value": "cpa"
+        },
+        {
+            "id": 25,
+            "name": "ACOS",
+            "value": "acos"
+        },
+        {
+            "id": 26,
+            "name": "ROAS",
+            "value": "roas"
+        },
+        {
+            "id": 27,
+            "name": "NTB-Orders",
+            "value": "ntb_orders"
+        },
+        {
+            "id": 28,
+            "name": "NTB-OrdersPercentage",
+            "value": "ntb_orderspercentage"
+        },
+        {
+            "id": 29,
+            "name": "NTB-OrderRate",
+            "value": "ntb_orderrate"
+        },
+        {
+            "id": 30,
+            "name": "NTB-Sales",
+            "value": "ntb_sales"
+        },
+        {
+            "id": 31,
+            "name": "NTB-SalesPercentage",
+            "value": "ntb_salespercentage"
+        },
+        {
+            "id": 31,
+            "name": "NTB-Units",
+            "value": "ntb_units"
+        },
+        {
+            "id": 32,
+            "name": "NTB-UnitsPercentage",
+            "value": "ntb_unitspercentage"
+        },
+        {
+            "id": 33,
+            "name": "SameSkuSales",
+            "value": "sameskusales"
+        },
+        {
+            "id": 34,
+            "name": "SameSkuSaleUnits",
+            "value": "sameskusalesunits"
+        },
+        {
+            "id": 35,
+            "name": "SameSkuOrders",
+            "value": "sameskuorders"
+        },
+        {
+            "id": 36,
+            "name": "SameSkuROAS",
+            "value": "SameSkuROAS"
+        },
+        {
+            "id": 37,
+            "name": "SameSkuACOS",
+            "value": "sameskuacos"
+        },
+        {
+            "id": 38,
+            "name": "SameSkuCPA",
+            "value": "sameskuacpa"
+        },
+        {
+            "id": 39,
+            "name": "SameSkuCVR",
+            "value": "SameSkuCVR"
+        },
+        {
+            "id": 40,
+            "name": "AOV",
+            "value": "aov"
+        },
+        {
+            "id": 41,
+            "name": "ASP",
+            "value": "asp"
+        },
+        {
+            "id": 42,
+            "name": "Serving Status",
+            "value": "ServingStatus"
+        }
+    ],
+    "adgroupbody": [
+        {
+            "adgroup_name": "HTC_PO3_EXACT_BRAND_100K+",
+            "state": "paused",
+            "type": "SP-Manual",
+            "campaign_name": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "targeting_type": "manual-keyword",
+            "profile_name": "Harpic [IN]",
+            "ads": "0",
+            "addtime": "07/19/2019 00:00:00",
+            "target": "--",
+            "default_bid": "369.21",
+            "impression": "4,168,251",
+            "clicks": "24,540",
+            "ctr": "0.59%",
+            "spend": "$1,134,386.66",
+            "cpc": "$46.23",
+            "cumulativereach": "0",
+            "avgimpressionsfrequency": "0",
+            "sales": "$7,142,517.82",
+            "orders": "13,592",
+            "salesunits": "18,287.00",
+            "othersales": "$563,394.33",
+            "othersalespercent": "7.88%",
+            "cvr": "55.39%",
+            "cpa": "$83.46",
+            "acos": "15.88%",
+            "roas": "$6.30",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_orderrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0",
+            "ntb_unitspercentage": "0.00%",
+            "sameskusales": "$6,579,123.49",
+            "sameskusalesunits": "15,873",
+            "sameskuorders": "11,859",
+            "SameSkuROAS": "$5.80",
+            "sameskuacos": "17.24%",
+            "sameskuacpa": "$95.66",
+            "SameSkuCVR": "48.33%",
+            "aov": "$525.49",
+            "asp": "$390.58",
+            "ServingStatus": "Paused"
+        },
+        {
+            "adgroup_name": "2L/2.5L_EXACT_CATEGORY_100K+",
+            "state": "paused",
+            "type": "SP-Manual",
+            "campaign_name": "RB_HYHO_LIZOL_DFC_SP_KW_EXACT_CATEGORY_100K+_JAN23",
+            "targeting_type": "manual-keyword",
+            "profile_name": "Lizol [IN]",
+            "ads": "0",
+            "addtime": "01/23/2023 00:00:00",
+            "target": "--",
+            "default_bid": "3.0",
+            "impression": "1,563,390",
+            "clicks": "5,064",
+            "ctr": "0.32%",
+            "spend": "$814,205.27",
+            "cpc": "$160.78",
+            "cumulativereach": "0",
+            "avgimpressionsfrequency": "0",
+            "sales": "$306,800.84",
+            "orders": "915",
+            "salesunits": "963.00",
+            "othersales": "$10,835.05",
+            "othersalespercent": "3.53%",
+            "cvr": "18.07%",
+            "cpa": "$889.84",
+            "acos": "265.39%",
+            "roas": "$0.38",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_orderrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0",
+            "ntb_unitspercentage": "0.00%",
+            "sameskusales": "$295,965.79",
+            "sameskusalesunits": "900",
+            "sameskuorders": "858",
+            "SameSkuROAS": "$0.36",
+            "sameskuacos": "275.10%",
+            "sameskuacpa": "$948.96",
+            "SameSkuCVR": "16.94%",
+            "aov": "$335.30",
+            "asp": "$318.59",
+            "ServingStatus": "Enabled"
+        },
+        {
+            "adgroup_name": "HTC_PO2_VB_EXACT_BRAND_100K+",
+            "state": "enabled",
+            "type": "SP-Manual",
+            "campaign_name": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "targeting_type": "manual-keyword",
+            "profile_name": "Harpic [IN]",
+            "ads": "0",
+            "addtime": "02/01/2023 00:00:00",
+            "target": "--",
+            "default_bid": "3.0",
+            "impression": "3,614,244",
+            "clicks": "11,721",
+            "ctr": "0.32%",
+            "spend": "$729,630.10",
+            "cpc": "$62.25",
+            "cumulativereach": "0",
+            "avgimpressionsfrequency": "0",
+            "sales": "$2,283,507.48",
+            "orders": "9,452",
+            "salesunits": "9,798.00",
+            "othersales": "$233,838.47",
+            "othersalespercent": "10.24%",
+            "cvr": "80.64%",
+            "cpa": "$77.19",
+            "acos": "31.95%",
+            "roas": "$3.13",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_orderrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0",
+            "ntb_unitspercentage": "0.00%",
+            "sameskusales": "$2,049,669.01",
+            "sameskusalesunits": "8,731",
+            "sameskuorders": "8,539",
+            "SameSkuROAS": "$2.81",
+            "sameskuacos": "35.60%",
+            "sameskuacpa": "$85.45",
+            "SameSkuCVR": "72.85%",
+            "aov": "$241.58",
+            "asp": "$233.06",
+            "ServingStatus": "Enabled"
+        },
+        {
+            "adgroup_name": "2L/2.5L_EXACT_BRAND_100K+",
+            "state": "manual-keyword",
+            "type": "SP-Manual",
+            "campaign_name": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "targeting_type": "manual-keyword",
+            "profile_name": "Lizol [IN]",
+            "ads": "0",
+            "addtime": "01/23/2023 00:00:00",
+            "target": "--",
+            "default_bid": "3.0",
+            "impression": "838,572",
+            "clicks": "9,843",
+            "ctr": "1.17%",
+            "spend": "$527,687.96",
+            "cpc": "$53.61",
+            "cumulativereach": "0",
+            "avgimpressionsfrequency": "0",
+            "sales": "$1,480,831.15",
+            "orders": "4,133",
+            "salesunits": "4,561.00",
+            "othersales": "$52,892.06",
+            "othersalespercent": "10.24%",
+            "cvr": "80.64%",
+            "cpa": "$77.19",
+            "acos": "31.95%",
+            "roas": "$3.13",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_orderrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0",
+            "ntb_unitspercentage": "0.00%",
+            "sameskusales": "$2,049,669.01",
+            "sameskusalesunits": "8,731",
+            "sameskuorders": "8,539",
+            "SameSkuROAS": "$2.81",
+            "sameskuacos": "35.60%",
+            "sameskuacpa": "$85.45",
+            "SameSkuCVR": "72.85%",
+            "aov": "$241.58",
+            "asp": "$233.06",
+            "Serving Status": "Enabled"
+        }
+    ],
+    "adgroupfooter":[
+        {
+            
+            "adgroup_name": "",
+            "state": "",
+            "type": "",
+            "campaign_name": "",
+            "targeting_type": "",
+            "profile_name": "",
+            "ads": "",
+            "addtime": "",
+            "target": "",
+            "default_bid": "",
+            "impression": "641,634,982",
+            "clicks": "1,098,643",
+            "ctr": "0.17%",
+            "spend": "$25,035,797.23",
+            "cpc": "$22.79",
+            "cumulativereach": "",
+            "avgimpressionsfrequency": "",
+            "sales": "$98,932,141.18",
+            "orders": "311,315",
+            "salesunits": "350,322.00",
+            "othersales": "$52,892.06",
+            "othersalespercent": "15.71%",
+            "cvr": "28.34%",
+            "cpa": "$77.19",
+            "acos": "31.95%",
+            "roas": "$3.13",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_orderrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0",
+            "ntb_unitspercentage": "0.00%",
+            "sameskusales": "$2,049,669.01",
+            "sameskusalesunits": "8,731",
+            "sameskuorders": "8,539",
+            "SameSkuROAS": "$2.81",
+            "sameskuacos": "35.60%",
+            "sameskuacpa": "$93.32",
+            "SameSkuCVR": "24.42%",
+            "aov": "$317.79",
+            "asp": "$282.40",
+            "Serving Status": "Enabled"
+        }
+
+    ],
+    "targetheader": [
+        {
+            "id": 1,
+            "name": "Keywords",
+            "value": "keywords"
+        },
+        {
+            "id": 2,
+            "name": "State",
+            "value": "state"
+        },
+        {
+            "id": 3,
+            "name": "Current Bid",
+            "value": "current_bid"
+        },
+        {
+            "id": 4,
+            "name": "Suggested Bid",
+            "value": "suggested_bid"
+        },
+        {
+            "id": 5,
+            "name": " Type",
+            "value": "type"
+        },
+        {
+            "id": 6,
+            "name": "Match Type",
+            "value": "match"
+        },
+        {
+            "id": 7,
+            "name": "Campaign Name",
+            "value": "campaignname"
+        },
+        {
+            "id": 8,
+            "name": "AdGroupName",
+            "value": "adgroupname"
+        },
+        {
+            "id": 9,
+            "name": "Status",
+            "value": "status"
+        },
+        {
+            "id": 10,
+            "name": "Impressions",
+            "value": "impression"
+        },
+        {
+            "id": 11,
+            "name": "Clicks",
+            "value": "clicks"
+        },
+        {
+            "id": 12,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 13,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 14,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 15,
+            "name": "Sales",
+            "value": "sales"
+        },
+        {
+            "id": 16,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 17,
+            "name": "SaleUnits",
+            "value": "saleunits"
+        },
+        {
+            "id": 18,
+            "name": "CVR",
+            "value": "cvr"
+        },
+        {
+            "id": 19,
+            "name": "CPA",
+            "value": "cpa"
+        },
+        {
+            "id": 20,
+            "name": "ROAS",
+            "value": "roas"
+        },
+        {
+            "id": 21,
+            "name": "ACOS",
+            "value": "acos"
+        }
+    ],
+    "targetbody": [
+        {
+            "keyword": "harpic",
+            "state": "enabled",
+            "current_bid": "$90.00",
+            "suggested_bid": "$28.18",
+            "type": "SP-Manual",
+            "match": "exact",
+            "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+            "status": "Paused",
+            "impression": "764,857",
+            "clicks": "9,890",
+            "ctr": "1.29%",
+            "spend": "$439,235.54",
+            "cpc": "$44.41",
+            "sales": "$3,408,928.00",
+            "orders": "5,539",
+            "saleunits": "8,642",
+            "cvr": "56.01%",
+            "cpa": "$79.30",
+            "roas": "$7.76",
+            "acos": "12.88%"
+        },
+        {
+            "keyword": "floor cleaner",
+            "state": "enabled",
+            "current_bid": "$31.14",
+            "suggested_bid": "$63.10",
+            "type": "SP-Manual",
+            "match": "exact",
+            "campaignname": "RB_HYHO_LIZOL_DFC_SP_KW_EXACT_CATEGORY_100K+_JAN23",
+            "adgroupname": "2L/2.5L_EXACT_CATEGORY_100K+",
+            "status": "Enabled",
+            "impression": "693,738",
+            "clicks": "2,590",
+            "ctr": "0.37%",
+            "spend": "$519,253.05",
+            "cpc": "$200.48",
+            "sales": "$180,228.67",
+            "orders": "540",
+            "saleunits": "566",
+            "cvr": "20.85%",
+            "cpa": "$961.58",
+            "roas": "$0.35",
+            "acos": "288.11%"
+        },
+        {
+            "keyword": "harpic toilet cleaner 1 litre offer",
+            "state": "Enabled",
+            "current_bid": "$64.80",
+            "suggested_bid": "$27.26",
+            "type": "SP-Manual",
+            "match": "Exact",
+            "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+            "status": "Paused",
+            "impression": "2,076,414",
+            "clicks": "9,890",
+            "ctr": "1.29%",
+            "spend": "$439,235.54",
+            "cpc": "$44.41",
+            "sales": "$3,408,928.00",
+            "orders": "5,539",
+            "saleunits": "8,642",
+            "cvr": "56.01%",
+            "cpa": "$79.30",
+            "roas": "$7.76",
+            "acos": "12.88%"
+        },
+        {
+            "keyword": "lizol",
+            "state": "Enabled",
+            "current_bid": "$0.00",
+            "suggested_bid": "$57.39",
+            "type": "SP-Manual",
+            "match": "Exact",
+            "campaignname": "RB_HYHO_LIZOL_DFC_SP_KW_EXACT_BRAND_100K+_JAN23",
+            "adgroupname": "2L/2.5L_EXACT_BRAND_100K+",
+            "status": "Enabled",
+            "impression": "408,494",
+            "clicks": "6,645",
+            "ctr": "1.63%",
+            "spend": "$345,315.82",
+            "cpc": "$51.97",
+            "sales": "$180,228.67",
+            "orders": "540",
+            "saleunits": "566",
+            "cvr": "20.85%",
+            "cpa": "$961.58",
+            "roas": "$0.35",
+            "acos": "288.11%"
+        },
+        {
+            "keyword": "harpic toilet cleaner",
+            "state": "Enabled",
+            "current_bid": "$0.00",
+            "suggested_bid": "$72.00",
+            "type": "SP-Manual",
+            "match": "Exact",
+            "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+            "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+            "status": "Paused",
+            "impression": "1,326,980",
+            "clicks": "7,093",
+            "ctr": "0.53%",
+            "spend": "$337,251.84",
+            "cpc": "$47.55",
+            "sales": "$1,916,884.44",
+            "orders": "540",
+            "saleunits": "566",
+            "cvr": "20.85%",
+            "cpa": "$961.58",
+            "roas": "$0.35",
+            "acos": "288.11%"
+        }
+    ],
+    
+    "targetfooter": [
+        {
+            "keyword": "",
+            "state": "",
+            "current_bid": "",
+            "suggested_bid": "",
+            "type": "",
+            "match": "exact",
+            "campaignname": "",
+            "adgroupname": "",
+            "status": "",
+            "impression": "409,789,492",
+            "clicks": "754,851",
+            "ctr": "0.18%",
+            "spend": "$25.96",
+            "cpc": "",
+            "sales": "$71,261,301.00",
+            "orders": "223,377",
+            "saleunits": "255,320",
+            "cvr": "29.59%",
+            "cpa": "$87.74",
+            "roas": "$3.64",
+            "acos": "27.50%"
+        }
+    ],
+    "profileheader": [
+        {
+            "id": 1,
+            "name": "Profile",
+            "value": "profile",
+            "type": "single"
+        },
+        {
+            "id": 2,
+            "name": "Add Time",
+            "value": "add_time"
+        },
+        {
+            "id": 3,
+            "name": "Type",
+            "value": "type"
+        },
+        {
+            "id": 4,
+            "name": "Impressions",
+            "value": "impressions"
+        },
+        {
+            "id": 5,
+            "name": "Clicks",
+            "value": "clicks"
+        },
+        {
+            "id": 6,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 7,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 9,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 10,
+            "name": "Sales",
+            "value": "sales"
+        },
+        {
+            "id": 11,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 12,
+            "name": "Sale Units",
+            "value": "sale_units"
+        },
+        {
+            "id": 13,
+            "name": "CVR",
+            "value": "cvr"
+        },
+        {
+            "id": 14,
+            "name": "CPA",
+            "value": "cpa"
+        },
+        {
+            "id": 15,
+            "name": "ACOS",
+            "value": "acos"
+        },
+        {
+            "id": 16,
+            "name": "ROAS",
+            "value": "roas"
+        },
+        {
+            "id": 17,
+            "name": "TACOS",
+            "value": "tacos"
+        },
+        {
+            "id": 18,
+            "name": "NTB-Orders",
+            "value": "ntb_orders"
+        },
+        {
+            "id": 19,
+            "name": "NTB-OrdersPercentage",
+            "value": "ntb_orderspercentage"
+        },
+        {
+            "id": 20,
+            "name": "NTB-OrderRate",
+            "value": "ntb-ordersrate"
+        },
+        {
+            "id": 21,
+            "name": "NTB-Sales",
+            "value": "ntb_sales"
+        },
+        {
+            "id": 21,
+            "name": "NTB-SalesPercentage",
+            "value": "ntb_salespercentage"
+        }
+       
+       
+    ],
+    "profilebody": [
+        {
+            "profile": "Harpic [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "181,731,885",
+            "clicks": "316,973",
+            "ctr": "0.17%",
+            "spend": "$7,609,693",
+            "cpc": "$24.00",
+            "sales": "$29,535,774",
+            "orders": "104,834",
+            "sale_units": "119,657",
+            "cvr": "33.07%",
+            "cpa": "$72.58",
+            "acos": "$25.76%",
+            "roas": "$3.88",
+            "tacos": "-",
+            "ntb_orders": "10.801",
+            "ntb_orderspercentage": "58.56%",
+            "ntb_ordersrate": "11.26%",
+            "ntb_sales": "$2,582,718.56",
+            "ntb_salespercentage": "53.87%",
+            "ntb_units": "12,632"
+        },
+        {
+            "profile": "Lizol [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "191,781,451",
+            "clicks": "166,982",
+            "ctr": "0.09%",
+            "spend": "$5,432,301.25",
+            "cpc": "$32.53",
+            "sales": "$17,597,180.56",
+            "orders": "48,208",
+            "sale_units": "48,751",
+            "cvr": "28.87%",
+            "cpa": "$112.68",
+            "acos": "30.87%",
+            "roas": "$3.24",
+            "tacos": "-",
+            "ntb_orders": "4,552",
+            "ntb_orderspercentage": "58.23%",
+            "ntb_ordersrate": "10.73%",
+            "ntb_sales": "$1,413,705.16",
+            "ntb_salespercentage": "55.06%",
+            "ntb_units": "4,940"
+        },
+        {
+            "profile": "Airwick [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "66,008,468",
+            "clicks": "196,228",
+            "ctr": "0.30%",
+            "spend": "$3,213,403.61",
+            "cpc": "$16.37",
+            "sales": "$12,544,054.20",
+            "orders": "29,783",
+            "sale_units": "33,205",
+            "cvr": "15.18%",
+            "cpa": "$107.89",
+            "acos": "25.62%",
+            "roas": "$3.90",
+            "tacos": "-",
+            "ntb_orders": "6,377",
+            "ntb_orderspercentage": "75.12%",
+            "ntb_ordersrate": "7.81%",
+            "ntb_sales": "$2,748,731.66",
+            "ntb_salespercentage": "77.31%",
+            "ntb_units": "7,485"
+        },
+        {
+            "profile": "Finish [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "50,857,317",
+            "clicks": "101,029",
+            "ctr": "0.20%",
+            "spend": "$2,515,278.26",
+            "cpc": "$24.89",
+            "sales": "$22,377,236.65",
+            "orders": "45,178",
+            "sale_units": "47,372",
+            "cvr": "44.72%",
+            "cpa": "$55.67",
+            "acos": "11.24%",
+            "roas": "$8.90",
+            "tacos": "--",
+            "ntb_orders": "2,314",
+            "ntb_orderspercentage": "33.52%",
+            "ntb_ordersrate": "8.38%",
+            "ntb_sales": "$1,415,987.77",
+            "ntb_salespercentage": "31.71%",
+            "ntb_units": "2,424"
+        },
+        {
+            "profile": "Mortein [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "57,996,633",
+            "clicks": "104,880",
+            "ctr": "0.18%",
+            "spend": "$2,493,320.10",
+            "cpc": "$23.77",
+            "sales": "$4,110,751.05",
+            "orders": "16,621",
+            "sale_units": "21,174",
+            "cvr": "15.85%",
+            "cpa": "$150.01",
+            "acos": "60.65%",
+            "roas": "$1.65",
+            "tacos": "-",
+            "ntb_orders": "1,376",
+            "ntb-orderspercentage": "69.28%",
+            "ntb-ordersrate": "6.42%",
+            "ntb_sales": "$346,423.18",
+            "ntb_salespercentage": "67.16%",
+            "ntb_units": "1,767"
+        },
+        {
+            "profile": "Vanish [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "61,596,326",
+            "clicks": "91,989",
+            "ctr": "0.15%",
+            "spend": "$1,974,750.00",
+            "cpc": "$21.46",
+            "sales": "$5,705,679.64",
+            "orders": "26,125",
+            "sale_units": "31,695",
+            "cvr": "28.40%",
+            "cpa": "$75.58",
+            "acos": "34.61%",
+            "roas": "$2.89",
+            "tacos": "-",
+            "ntb_orders": "2,048",
+            "ntb_orderspercentage": "56.09%",
+            "ntb_ordersrate": "8.21%",
+            "ntb_sales": "$430,755.00",
+            "ntb_salespercentage": "50.95%",
+            "ntb_units": "2,429"
+        },
+        {
+            "profile": "Colin [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "22,116,794",
+            "clicks": "73,571",
+            "ctr": "0.33%",
+            "spend": "$1,317,413.18",
+            "cpc": "$17.90",
+            "sales": "$5,544,189.83",
+            "orders": "26,901",
+            "sale_units": "33,738",
+            "cvr": "36.56%",
+            "cpa": "$48.97",
+            "acos": "23.76%",
+            "roas": "$4.21",
+            "tacos": "-",
+            "ntb_orders": "2,940",
+            "ntb_orderspercentage": "68.41%",
+            "ntb_ordersrate": "12.00%",
+            "ntb_sales": "$516,908.29",
+            "ntb_salespercentage": "63.64%",
+            "ntb_units": "3,693"
+        },
+        {
+            "profile": "Cherry Blossom [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "5,644,359",
+            "clicks": "36,060",
+            "ctr": "0.64%",
+            "spend": "$374,356.60",
+            "cpc": "$10.38",
+            "sales": "$832,395.17",
+            "orders": "11,102",
+            "sale_units": "12,273",
+            "cvr": "30.79%",
+            "cpa": "$33.71",
+            "acos": "$33.71",
+            "roas": "44.97%",
+            "tacos": "-",
+            "ntb_orders": "0",
+            "ntb_orderspercentage": "0.00%",
+            "ntb_ordersrate": "0.00%",
+            "ntb_sales": "$0.00",
+            "ntb_salespercentage": "0.00%",
+            "ntb_units": "0"
+        },
+        {
+            "profile": "Brasso [IN]",
+            "add_time": "06/30/2021 05:04:11",
+            "type": "1P",
+            "impressions": "3,933,450",
+            "clicks": "10,965",
+            "ctr": "0.28%",
+            "spend": "$106,364.47",
+            "cpc": "$9.70",
+            "sales": "$717,062.08",
+            "orders": "2,670",
+            "sale_units": "2,492",
+            "cvr": "24.35%",
+            "cpa": "$39.83",
+            "acos": "14.83%",
+            "roas": "$6.74",
+            "tacos": "-",
+            "ntb_orders": "555",
+            "ntb_orderspercentage": "94.06%",
+            "ntb_ordersrate": "15.15%",
+            "ntb_sales": "$129,713.29",
+            "ntb_salespercentage": "89.87%",
+            "ntb_units": "578"
+           
+        }
+    ],
+    "asinheader": [
+        {
+            "id": 1,
+            "name": "ASIN",
+            "value": "asin"
+        },
+       
+        
+        {
+            "id": 4,
+            "name": "State",
+            "value": "state"
+        },
+        {
+            "id": 5,
+            "name": "Profile Name",
+            "value": "profile_name"
+        },
+        {
+            "id": 6,
+            "name": "Adgroup Name",
+            "value": "adgroup_name"
+        },
+        {
+            "id": 7,
+            "name": "Add Time",
+            "value": "addtime"
+        },
+        {
+            "id": 8,
+            "name": "Impression",
+            "value": "impression"
+        },
+        {
+            "id": 9,
+            "name": "Click",
+            "value": "clicks"
+        },
+        {
+            "id": 10,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 11,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 12,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 13,
+            "name": "Sales",
+            "value": "sales"
+        },
+        {
+            "id": 14,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 15,
+            "name": "SaleUnits",
+            "value": "salesunits"
+        },
+        {
+            "id": 16,
+            "name": "OtherSales",
+            "value": "othersales"
+        },
+        {
+            "id": 17,
+            "name": "OtherSalesPercent",
+            "value": "othersalespercent"
+        },
+        {
+            "id": 18,
+            "name": "CVR",
+            "value": "cvr"
+        }
+    ],
+    "asinbody": [
+        {
+            "asin": "B077MCF1YR",
+          
+         
+            "state": "enabled",
+            "profile_name": "Harpic [IN]",
+            "adgroup_name": "HTC_PO3_EXACT_BRAND_100K+",
+            "addtime": "01/23/2023 00:00:00",
+            "impression": "4,168,251",
+            "clicks": "24,540",
+            "ctr": "0.59%",
+            "spend": "$729,907.62",
+            "cpc": "$46.23",
+            "sales": "$7,142,517.82",
+            "orders": "13,592",
+            "salesunits": "18,287.00",
+            "othersales": "$563,394.33",
+            "othersalespercent": "7.88%",
+            "cvr": "55.39%"
+        },
+        {
+            "asin": "B08LLYYXQ6",
+          
+           
+            "state": "enabled",
+            "profile_name": "Harpic [IN]",
+            "adgroup_name": "HTC_PO2_VB_EXACT_BRAND_100K+",
+            "addtime": "01/23/2023 00:00:00",
+            "impression": "3,615,905",
+            "clicks": "11,728",
+            "ctr": "0.32%",
+            "spend": "$480,838.15",
+            "cpc": "$160.78",
+            "sales": "$306,800.84",
+            "orders": "915",
+            "salesunits": "963.00",
+            "othersales": "$10,835.05",
+            "othersalespercent": "3.53%",
+            "cvr": "18.07%"
+        },
+        {
+            "asin": "B00NWFXTJY",
+          
+          
+            "state": "enabled",
+            "profile_name": "Harpic [IN]",
+            "adgroup_name": "HTC_PO2_VB_EXACT_BRAND_100K+",
+            "addtime": "02/01/2023 00:00:00",
+            "impression": "969,694",
+            "clicks": "3,274",
+            "ctr": "0.34%",
+            "spend": "$729,630.10",
+            "cpc": "$62.25",
+            "sales": "$2,283,507.48",
+            "orders": "9,452",
+            "salesunits": "9,798.00",
+            "othersales": "$233,838.47",
+            "othersalespercent": "10.24%",
+            "cvr": "80.64%"
+        },
+        {
+            "asin": "B00NWFXTJY",
+          
+          
+            "state": "enabled",
+            "profile_name": "Lizol [IN]",
+            "adgroup_name": "HTC_PO2_VB_EXACT_BRAND_100K+",
+            "addtime": "01/03/2020 00:00:00",
+            "impression": "510,432",
+            "clicks": "7,045",
+            "ctr": "1.38%",
+            "spend": "$350,847.00",
+            "cpc": "$53.61",
+            "sales": "$1,480,831.15",
+            "orders": "4,133",
+            "salesunits": "4,561.00",
+            "othersales": "$52,892.06",
+            "othersalespercent": "10.24%",
+            "cvr": "80.64%"
+        },
+        {
+            "asin": "B077MCF1YR",
+         
+          
+            "state": "enabled",
+            "profile_name": "Harpic [IN]",
+            "adgroup_name": "HTC_PO3_EXACT_BRAND_100K+",
+            "addtime": "01/23/2023 00:00:00",
+            "impression": "4,168,251",
+            "clicks": "24,540",
+            "ctr": "0.59%",
+            "spend": "$729,907.62",
+            "cpc": "$46.23",
+            "sales": "$7,142,517.82",
+            "orders": "13,592",
+            "salesunits": "18,287.00",
+            "othersales": "$563,394.33",
+            "othersalespercent": "7.88%",
+            "cvr": "55.39%"
+        }
+    
+    ],
+    "asinfooter": [
+        {
+            "asin": "",
+          
+         
+            "state": "",
+            "profile_name": "",
+            "adgroup_name": "",
+            "addtime": "",
+            "impression": "596,683,640",
+            "clicks": "815,183",
+            "ctr": "0.14%",
+            "spend": "$19,943,136.98",
+            "cpc":"$24.46",
+            "sales": "$0.00",
+            "orders": "0",
+            "salesunits": "18,287.00",
+            "othersales": "$563,394.33",
+            "othersalespercent": "7.88%",
+            "cvr": "55.39%"
+        }
+    ],
+    "porfolioheader": [
+        {
+            "id": 1,
+            "name": "Portfolio Name",
+            "value": "portfolio_name"
+        },
+       
+        
+        {
+            "id": 2,
+            "name": "Status",
+            "value": "status"
+        },
+        {
+            "id": 3,
+            "name": "Profile Name",
+            "value": "profile_name"
+        },
+        {
+            "id": 4,
+            "name": "Campaigns",
+            "value": "campaigns"
+        },
+        {
+            "id": 5,
+            "name": "Budget cap",
+            "value": "budget_cap"
+        },
+        {
+            "id": 6,
+            "name": "Budget date range",
+            "value": "budget_date_range"
+        },
+        {
+            "id": 7,
+            "name": "Impression",
+            "value": "impression"
+        },
+        {
+            "id": 8,
+            "name": "Click",
+            "value": "click"
+        },
+        {
+            "id": 9,
+            "name": "CTR",
+            "value": "ctr"
+        },
+        {
+            "id": 10,
+            "name": "Spend",
+            "value": "spend"
+        },
+        {
+            "id": 11,
+            "name": "CPC",
+            "value": "cpc"
+        },
+        {
+            "id": 13,
+            "name": "Sales",
+            "value": "sales"
+        },
+        {
+            "id": 14,
+            "name": "Orders",
+            "value": "orders"
+        },
+        {
+            "id": 15,
+            "name": "SaleUnits",
+            "value": "saleunits"
+        },
+        {
+            "id": 16,
+            "name": "CVR",
+            "value": "cvr"
+        },
+        {
+            "id": 17,
+            "name": "CPA",
+            "value": "cpa"
+        },
+        {
+            "id":18,
+            "name":"ACOS",
+            "value":"acos"
+        },
+        {
+            "id":"19",
+            "name":"ROAS",
+            "value":"roas"
+        }
+    ],
+    "portfoliobody": [
+        {
+            "portfolio_name": "Brand Campaigns",
+          
+         
+            "status": "Delivering",
+            "profile_name": "Harpic [IN]",
+            "campaigns": "120",
+            "budget_cap": "--",
+            "budget_date_range": "--",
+            "impression":"37,283,978",
+            "click": "133,801",
+            "ctr": "0.36%",
+            "spend": "$3,839,331.82",
+            "cpc": "$28.69",
+            "sales": "$19,457,177.77",
+            "orders": "62,804",
+            "salesunits": "74,901",
+            "cvr": "46.94%",
+            "cpa":"$61.13",
+            "acos":"19.73%",
+            "roas":"$5.07"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+#main-custom-container {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --amazon-color: #ef880f;
+  --blinkit-color: #11b07a;
+  --instamart-color: #963c71;
+  --zepto-color: #483285;
+  --dashboard-color: #2563eb;
+  --flipkart-color: #2563eb;
+  /* --secondary-color: #6c757d;
+  --border-color: #ced4da; */
+}
+
+.custom-table {
+  /* max-height: 25rem; */
+  /* overflow: auto; */
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.custom-tablecontent {
+  height: 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px !important;
+  font-size: 13px;
+  font-weight: 400;
+  border-top: none;
+  line-height: 18px;
+}
+
+.custom-table tr td:first-child {
+  min-width: 150px;
+  max-width: 150px;
+}
+
+/* .custom-table tr td:not(:first-child),
+.custom-table tr th:not(:first-child) {
+  width: calc(100% / (6 - 1));
+} */
+
+/* .custom-tablecontent td */
+
+.custom-table tr td:nth-child(5),
+.custom-table tr th:nth-child(5) {
+  max-width: 150px !important;
+}
+
+.custom-table tr td:nth-child(2),
+.custom-table tr th:nth-child(2) {
+  max-width: 150px !important;
+}
+
+.custom-tablecontent td {
+  background-color: white !important;
+}
+
+/*Custom Date Picker sidenav*/
+.custom-date .rdrStaticRanges {
+  display: none;
+}
+
+.custom-date .rdrInputRangeInput {
+  display: none;
+}
+
+.custom-date .rdrDefinedRangesWrapper {
+  display: none;
+}
+/*  */
+
+.custom-tablecontent tr td {
+  padding-left: 20px !important;
+}
+
+.disabled-div {
+  color: #999;
+  cursor: not-allowed;
+  opacity: 0.5;
+  /* pointer-events: none; */
+}
+
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+
+.custom-checkbox label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.custom-checkbox label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::before {
+  content: "\2713";
+  text-align: center;
+  line-height: 17px;
+  width: 17px;
+  height: 17px;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-checkbox label span {
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.amazon-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--amazon-color);
+}
+
+.dashboard-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--dashboard-color);
+}
+
+.blinkit-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--blinkit-color);
+}
+
+.instamart-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--instamart-color);
+}
+
+.zepto-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--zepto-color);
+}
+
+.flipkart-custom-select input[type="checkbox"]:checked + label::before {
+  background: var(--flipkart-color);
+}

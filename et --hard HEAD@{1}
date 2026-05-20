@@ -1,0 +1,27 @@
+[33mfce3e78[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/qa[m[33m, [m[1;32mqa[m[33m)[m HEAD@{0}: pull origin qa: Fast-forward
+[33ma7af1a6[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: checkout: moving from feature/new_sos_perfetti to dev
+[33m6bf3134[m[33m ([m[1;31morigin/feature/new_sos_perfetti[m[33m, [m[1;32mfeature/new_sos_perfetti[m[33m)[m HEAD@{2}: commit: new logic change in Performance Drawer for perfetti
+[33ma7af1a6[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{3}: checkout: moving from qa to feature/new_sos_perfetti
+[33mfce3e78[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/qa[m[33m, [m[1;32mqa[m[33m)[m HEAD@{4}: merge origin/dev: Merge made by the 'ort' strategy.
+[33me749d51[m HEAD@{5}: checkout: moving from dev to qa
+[33ma7af1a6[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{6}: merge origin/feature/new_sos_perfetti: Fast-forward
+[33ma7dc75b[m[33m ([m[1;31morigin/bugfix/same-api-calling-multi-time[m[33m)[m HEAD@{7}: checkout: moving from feature/new_sos_perfetti to dev
+[33ma7af1a6[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{8}: commit: new logic change in Performance Drawer for perfetti
+[33ma7dc75b[m[33m ([m[1;31morigin/bugfix/same-api-calling-multi-time[m[33m)[m HEAD@{9}: pull origin dev: Fast-forward
+[33me7efd0e[m HEAD@{10}: checkout: moving from dev to feature/new_sos_perfetti
+[33ma7dc75b[m[33m ([m[1;31morigin/bugfix/same-api-calling-multi-time[m[33m)[m HEAD@{11}: checkout: moving from qa to dev
+[33me749d51[m HEAD@{12}: merge origin/dev: Merge made by the 'ort' strategy.
+[33m805e4a9[m HEAD@{13}: checkout: moving from dev to qa
+[33ma7dc75b[m[33m ([m[1;31morigin/bugfix/same-api-calling-multi-time[m[33m)[m HEAD@{14}: checkout: moving from dev to dev
+[33ma7dc75b[m[33m ([m[1;31morigin/bugfix/same-api-calling-multi-time[m[33m)[m HEAD@{15}: merge origin/bugfix/same-api-calling-multi-time: Fast-forward
+[33mb44fcda[m HEAD@{16}: pull origin dev: Fast-forward
+[33me7efd0e[m HEAD@{17}: merge origin/feature/new_sos_perfetti: Fast-forward
+[33m9e8ed09[m HEAD@{18}: pull origin dev: Fast-forward
+[33m51ea0e3[m HEAD@{19}: checkout: moving from feature/new_sos_perfetti to dev
+[33me7efd0e[m HEAD@{20}: merge origin/dev: Merge made by the 'ort' strategy.
+[33me51735b[m HEAD@{21}: commit: new sos perfetti
+[33m51ea0e3[m HEAD@{22}: checkout: moving from dev to feature/new_sos_perfetti
+[33m51ea0e3[m HEAD@{23}: pull origin dev: Fast-forward
+[33m0e5d635[m HEAD@{24}: pull origin dev: Fast-forward
+[33m304618e[m HEAD@{25}: pull origin dev: Fast-forward
+[33md8d117d[m HEAD@{26}: clone: from https://github.com/aglgit360/Digital_Shelf_Frontend.git

@@ -1,0 +1,164 @@
+.osa-chart-container {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  /* Reduced margin to move chart down */
+}
+
+.chart-title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.mock-overview-chart-title {
+  font-size: 15px;
+  font-weight: 520;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.mock-overview-chart-date {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.mock-overview-chart-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mock-overview-chart-content {
+  position: relative;
+  display: flex;
+  min-height: 120px;
+  height: 120px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 15px;
+  /* Added margin to push chart down */
+}
+
+.mock-overview-y-axis-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 11px;
+  color: #6b7280;
+  transform: rotate(180deg);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  /* Added to align with chart movement */
+}
+
+.mock-overview-chart-area {
+  flex: 1;
+  height: '120px';
+  min-height: 100px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  /* This moves the chart down */
+}
+
+.mock-overview-x-axis-label {
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 12px;
+  /* Increased margin to match chart movement */
+  font-weight: 500;
+}
+
+/* ECharts container styling */
+.mock-overview-chart-area>div {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Custom select styling */
+.view-select {
+  font-size: 11px;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  padding: 4px 12px;
+  outline: none;
+  background: #fff;
+  font-weight: 350;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.download-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+  background: #f3f4f6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .osa-chart-container {
+    margin: 10px;
+    padding: 16px;
+  }
+
+  .chart-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .mock-overview-chart-controls {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  .mock-overview-chart-content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .mock-overview-y-axis-label {
+    writing-mode: horizontal-tb;
+    transform: none;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 8px;
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  .mock-overview-chart-area {
+    margin-top: 1px;
+  }
+}

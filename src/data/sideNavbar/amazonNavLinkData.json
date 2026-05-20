@@ -1,0 +1,145 @@
+[
+  {
+    "as": "link",
+    "linkTitle": "Home",
+    "imgsrc": "/assets/images/home-solid.svg",
+    "linkPath": "/amazon",
+    "sidebar": "/amazon",
+    "icon": "far fa-home-lg-alt"
+  },
+  {
+    "as": "submenu",
+    "linkTitle": "Advertising",
+    "imgsrc": "/assets/images/badge-ad.svg",
+    "sidebar": "/amazon",
+    "icon": "far fa-ad",
+    "menu": [
+      {
+        "linkTitle": "Campaign Manager",
+        "linkPath": "/amazon/campaignmanager",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-file-search"
+      },
+      {
+        "linkTitle": "Negative Targeting",
+        "linkPath": "/amazon/negativekeyword",
+        "imgsrc": "/assets/images/navigatesearch.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-bullhorn"
+      },
+      {
+        "linkTitle": "Search Term",
+        "linkPath": "/amazon/searchTerm",
+        "imgsrc": "/assets/images/searchterm.icon.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-ad"
+      }
+    ]
+  },
+  {
+    "as": "submenu",
+    "linkTitle": "Report",
+    "imgsrc": "/assets/images/report-icon.svg",
+    "sidebar": "/amazon",
+    "icon": "fal fa-file-invoice",
+    "menu": [
+      {
+        "linkTitle": "Campaign",
+        "linkPath": "/amazon/reports/amazonCampaign",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-file-contract"
+      },
+      {
+        "linkTitle": "Ad Group",
+        "linkPath": "/amazon/reports/amazonAdGroup",
+
+        "imgsrc": "/assets/images/adgroup-icon.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-ad"
+      },
+      {
+        "linkTitle": "ASIN",
+        "linkPath": "/amazon/reports/asinreport",
+        "imgsrc": "/assets/images/fsn.svg",
+        "sidebar": "/amazon",
+        "icon": "fal fa-file-alt"
+      },
+      {
+        "linkTitle": "Keyword",
+        "linkPath": "/amazon/reports/keywordReport",
+        "imgsrc": "/assets/images/KW.svg",
+        "sidebar": "/amazon",
+        "icon": "fal fa-file-alt"
+      },
+
+      {
+        "linkTitle": "Search Term",
+        "linkPath": "/amazon/reports/searchTermReport",
+        "imgsrc": "/assets/images/searchterm.icon.svg",
+        "sidebar": "/amazon",
+        "icon": "fas fa-search"
+      },
+      {
+        "linkTitle": "Placement",
+        "linkPath": "/amazon/reports/placement",
+        "imgsrc": "/assets/images/placement.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-file-check"
+      },
+      {
+        "linkTitle": "Creative",
+        "linkPath": "/amazon/reports/creative",
+        "imgsrc": "/assets/images/creative-icon.svg",
+        "sidebar": "/amazon",
+        "icon": "far fa-tag"
+      }
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Manage Report",
+    "imgsrc": "/assets/images/createcustomreportblinkit.svg",
+    "linkPath": "/amazon/customreport",
+    "sidebar": "/amazon",
+    "icon": "fas fa-edit"
+  },
+
+  {
+    "as": "link",
+    "linkTitle": "Rules",
+    "linkPath": "/amazon/rules",
+    "imgsrc": "/assets/images/rules.icon.svg",
+    "sidebar": "/amazon",
+    "icon": "far fa-chart-line",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Budget",
+    "linkPath": "/amazon/budgettrend",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "sidebar": "/amazon",
+    "icon": "far fa-analytics",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Metric Analyzer",
+    "linkPath": "/amazon/metricanalyzer",
+    "imgsrc": "/assets/images/badge-ad.svg",
+    "sidebar": "/amazon",
+    "icon": "far fa-chart-area",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Action Activity",
+    "linkPath": "/amazon/action-activity",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "sidebar": "/amazon",
+    "icon": "fa fa-list-alt",
+    "disable": false
+  }
+]

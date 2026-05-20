@@ -1,0 +1,105 @@
+[
+    {
+        "as": "link",
+        "linkTitle": "Home",
+        "imgsrc":"/assets/images/home-solid.svg",
+        "linkPath": "/"
+    },
+    {
+        "as": "submenu",
+        "linkTitle": "Advertising",
+        "imgsrc":"/assets/images/badge-ad.svg",
+        "menu":[
+            {
+                "linkTitle": "Campaign",
+                "linkPath":"/" ,
+                "imgsrc":"/assets/images/campaign-icon.svg"
+            },
+            {
+                "linkTitle": "Negative Keyword",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/navigatesearch.svg"
+            },
+            {
+                "linkTitle": "Search Term",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/searchterm.icon.svg"
+
+            }
+
+        ]
+    },
+    {
+        "as": "link",
+        "linkTitle": "Rules",
+        "imgsrc":"/assets/images/rules.icon.svg"
+    },
+    
+        {
+        "as": "submenu",
+        "linkTitle": "Report",
+        "imgsrc":"/assets/images/report-icon.svg",
+        "menu": [
+            {
+                "linkTitle": "Campaign",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/campaign-icon.svg"
+                
+            },
+            {
+                "linkTitle": "Ad Group",
+                "linkPath": "/"
+                , "imgsrc":"/assets/images/adgroup-icon.svg"
+            },
+            {
+                "linkTitle": "Advertised FSN",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/fsn.svg"
+            },
+            {
+                "linkTitle": "Targeted KW",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/KW.svg"
+            },
+            {
+                "linkTitle": "Search Term",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/searchterm.icon.svg"
+
+            },
+            {
+                "linkTitle": "Placement",
+                "linkPath": "/"
+                ,
+                "imgsrc":"/assets/images/placement.svg"
+            },
+            {
+                "linkTitle": "Creative",
+                "linkPath": "/",
+                "imgsrc":"/assets/images/creative-icon.svg"
+            },
+            {
+                "linkTitle": "Revenue Report",
+                "linkPath": "",
+                "imgsrc":"/assets/images/report-icon.svg"
+            }
+        ]
+    },
+    {
+        "as": "link",
+        "linkTitle": "Product Center",
+        "imgsrc":"/assets/images/product.svg",
+        "linkPath": "/"
+    },
+    
+    {
+        "as": "link",
+        "linkTitle": "Brand Insight",
+        "linkPath": "/flipkart/budgettrend",
+        "imgsrc":"/assets/images/brandinsight.svg"
+    }
+    
+
+    
+    
+]

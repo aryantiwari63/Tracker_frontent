@@ -1,0 +1,31 @@
+[
+  {
+    "as": "link",
+    "linkTitle": "Home",
+    "imgsrc": "/assets/images/home-solid.svg",
+    "linkPath": "/dashboard",
+    "sidebar": "/dashboard",
+    "icon": "far fa-home-lg-alt",
+    "disable": false
+  },
+
+  {
+    "as": "link",
+    "linkTitle": "Tag Manager",
+    "imgsrc": "/assets/images/tag.svg",
+    "linkPath": "/tagManager",
+    "sidebar": "/dashboard",
+    "icon": "far fa-tag",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "User Onboarding",
+    "imgsrc": "/assets/images/useronboard.svg",
+    "linkPath": "/onboard",
+    "sidebar": "/dashboard",
+    "icon": "far fa-users",
+    "disable": false,
+    "roles": ["admin", "owner"]
+  }
+]

@@ -1,0 +1,2055 @@
+
+{
+  "header": [
+    {
+      "id": 1,
+      "name": "Campaigns",
+      "value": "campaigns",
+      "type": "single"
+    },
+    
+    {
+      "id": 2,
+      "name": "Status",
+      "value": "status"
+    },
+    {
+      "id": 3,
+      "name": "Type",
+      "value": "type"
+    },
+    {
+      "id": 4,
+      "name": "Targeting ",
+      "value": "targeting"
+    },
+    {
+      "id": 5,
+      "name": "Campaign bidding",
+      "value": "campaign_bidding_strategy"
+    },
+    {
+      "id": 6,
+      "name": "Start date",
+      "value": "start_date"
+    },
+    {
+      "id": 7,
+      "name": "End_date",
+      "value": "end_date"
+    },
+    {
+      "id": 8,
+      "name": "Portfolio",
+      "value": "portfolio"
+    },
+   
+    {
+      "id": 9,
+      "name": "Budget",
+      "value": "budget_inr"
+    },
+    {
+      "id": 10,
+      "name": "Top-of-search IS",
+      "value": "top_search"
+    },
+    {
+      "id": 11,
+      "name": "Cost type",
+      "value": "cost_type"
+    },
+    {
+      "id":12,
+      "name":"Impressions",
+      "value":"impressions"
+    },
+    {
+      "id": 13,
+      "name": "Clicks",
+      "value": "clicks"
+    },
+    {
+      "id": 14,
+      "name": "CTR",
+      "value": "ctr"
+    },
+    {
+      "id": 15,
+      "name": "Spend",
+      "value": "spend"
+    },
+    {
+      "id": 16,
+      "name": "CPC",
+      "value": "cpc"
+    },{
+      "id":17,
+      "name":"Orders",
+      "value":"orders"
+    },
+    {
+      "id":18,
+      "name":"Sales",
+      "value":"sales"
+    },
+    {
+      "id":19,
+      "name":"ACOS",
+      "value":"acos"
+    },
+    {
+      "id":20,
+      "name":"ROAS",
+      "value":"roas"
+    },{
+      "id":21,
+      "name":"NTB-Orders",
+      "value":"ntb_orders"
+    },{
+      "id":22,
+      "name":"% of orders NTB",
+      "value":"ntb_orderspercentage"
+    },{
+      "id":23,
+      "name":"NTB-Sales",
+      "value":"ntb_sales"
+    },
+    {
+      "id":24,
+      "name":"% of sales NTB",
+      "value":"ntb_salespercentage"
+    },{
+      "id":25,
+      "name":"Viewable impressions",
+      "value":"viewable_impressions"
+    },{
+      "id":26,
+      "name":"VCPM",
+      "value":"vcpm"
+    },{
+      "id":27,
+      "name":"Video of first quartile",
+      "value":"video_first_quartile"
+    },{
+      "id":28,
+      "name":"Video midpoint",
+      "value":"video_midpoint"
+    },{
+      "id":29,
+      "name":"Video of third quartile",
+      "value":"video_third_quartile"
+    },{
+      "id":30,
+      "name":"Video complete",
+      "value":"video_complete"
+
+    },{
+      "id":31,
+      "name":"Video unmute",
+      "value":"unmute"
+    },
+    {
+      "id":32,
+      "name":"VTR",
+      "value":"vtr"
+
+    },{
+      "id":33,
+      "name":"vCTR",
+      "value":"vctr"
+    }
+  ],
+  "body": [
+    {
+      "campaigns": "RB_HYHO_HARPIC_TC_SP_KW",
+      "status": "Enabled",
+      "type":"abcc",
+      "targeting":"manual",
+      "campaign_bidding_strategy":"6544",
+      "start_date":"Sep 6, 2023",
+      "end_date":"Sep 6, 2023",
+      "portfolio":"abs",
+      "budget_inr":"₹3,32,456",
+      "top_search":"476487",
+      "cost_type":"abgfjh",
+      "impressions":"23",
+      "clicks":"3",
+      "ctr":"0.8",
+      "spend":"₹3,56,789",
+      "cpc":"12",
+      "orders": "456",
+      "sales": "₹25,678",
+      "acos": "11.3%",
+      "roas": "7.2",
+      "ntb_orders": "98",
+      "ntb_orderspercentage": "21.5%",
+      "ntb_sales": "₹7,890",
+      "ntb_salespercentage": "30.8%",
+      "viewable_impressions": "78,456",
+      "vcpm": "₹45.60",
+      "video_first_quartile": "12.5%",
+      "video_midpoint": "25.3%",
+      "video_third_quartile": "35.7%",
+      "video_complete": "8.9%",
+      "unmute": "6.2%",
+      "vtr": "62.1%",
+      "vctr": "0.76%"
+},
+{
+  "campaigns": "RB_HYHO_HARPIC_TC_SP_KW",
+  "status": "Enabled",
+  "type":"abcc",
+  "targeting":"manual",
+  "campaign_bidding_strategy":"6544",
+  "start_date":"Sep 6, 2023",
+  "end_date":"Sep 6, 2023",
+  "portfolio":"abs",
+  "budget_inr":"₹3,32,456",
+  "top_search":"476487",
+  "cost_type":"abgfjh",
+  "impressions":"23",
+  "clicks":"3",
+  "ctr":"0.8",
+  "spend":"₹3,56,789",
+  "cpc":"12",
+  "orders": "456",
+  "sales": "₹25,678",
+  "acos": "11.3%",
+  "roas": "7.2",
+  "ntb_orders": "98",
+  "ntb_orderspercentage": "21.5%",
+  "ntb_sales": "₹7,890",
+  "ntb_salespercentage": "30.8%",
+  "viewable_impressions": "78,456",
+  "vcpm": "₹45.60",
+  "video_first_quartile": "12.5%",
+  "video_midpoint": "25.3%",
+  "video_third_quartile": "35.7%",
+  "video_complete": "8.9%",
+  "unmute": "6.2%",
+  "vtr": "62.1%",
+  "vctr": "0.76%"
+},
+{
+  "campaigns": "RB_HYHO_HARPIC_TC_SP_KW",
+  "status": "Enabled",
+  "type":"abcc",
+  "targeting":"manual",
+  "campaign_bidding_strategy":"6544",
+  "start_date":"Sep 6, 2023",
+  "end_date":"Sep 6, 2023",
+  "portfolio":"abs",
+  "budget_inr":"₹3,32,456",
+  "top_search":"476487",
+  "cost_type":"abgfjh",
+  "impressions":"23",
+  "clicks":"3",
+  "ctr":"0.8",
+  "spend":"₹3,56,789",
+  "cpc":"12",
+  "orders": "456",
+  "sales": "₹25,678",
+  "acos": "11.3%",
+  "roas": "7.2",
+  "ntb_orders": "98",
+  "ntb_orderspercentage": "21.5%",
+  "ntb_sales": "₹7,890",
+  "ntb_salespercentage": "30.8%",
+  "viewable_impressions": "78,456",
+  "vcpm": "₹45.60",
+  "video_first_quartile": "12.5%",
+  "video_midpoint": "25.3%",
+  "video_third_quartile": "35.7%",
+  "video_complete": "8.9%",
+  "unmute": "6.2%",
+  "vtr": "62.1%",
+  "vctr": "0.76%"
+},
+{
+  "campaigns": "RB_HYHO_HARPIC_TC_SP_KW",
+  "status": "Enabled",
+  "type":"",
+  "targeting":"manual",
+  "campaign_bidding_strategy":"",
+  "start_date":"Sep 6, 2023",
+  "end_date":"Sep 6, 2023",
+  "portfolio":"",
+  "budget_inr":"₹3,32,456",
+  "top_search":"",
+  "cost_type":"",
+  "impressions":"",
+  "clicks":"",
+  "ctr":"",
+  "spend":"₹3,56,789",
+  "cpc":"",
+  "orders": "456",
+  "sales": "₹25,678",
+  "acos": "11.3%",
+  "roas": "7.2",
+  "ntb_orders": "98",
+  "ntb_orderspercentage": "21.5%",
+  "ntb_sales": "₹7,890",
+  "ntb_salespercentage": "30.8%",
+  "viewable_impressions": "78,456",
+  "vcpm": "₹45.60",
+  "video_first_quartile": "12.5%",
+  "video_midpoint": "25.3%",
+  "video_third_quartile": "35.7%",
+  "video_complete": "8.9%",
+  "unmute": "6.2%",
+  "vtr": "62.1%",
+  "vctr": "0.76%"
+}
+],
+  "footer": [
+    {
+      "campaigns": "",
+      "status": "",
+      "type":"",
+      "targeting":"manual",
+      "campaign_bidding_strategy":"",
+      "start_date":"Sep 6, 2023",
+      "end_date":"Sep 6, 2023",
+      "portfolio":"",
+      "budget_inr":"₹3,32,456",
+      "top_search":"",
+      "cost_type":"",
+      "impressions":"",
+      "clicks":"",
+      "ctr":"",
+      "spend":"₹3,56,789",
+      "cpc":"",
+      "orders": "456",
+      "sales": "₹25,678",
+      "acos": "11.3%",
+      "roas": "7.2",
+      "ntb_orders": "98",
+      "ntb_orderspercentage": "21.5%",
+      "ntb_sales": "₹7,890",
+      "ntb_salespercentage": "30.8%",
+      "viewable_impressions": "78,456",
+      "vcpm": "₹45.60",
+      "video_first_quartile": "12.5%",
+      "video_midpoint": "25.3%",
+      "video_third_quartile": "35.7%",
+      "video_complete": "8.9%",
+      "unmute": "6.2%",
+      "vtr": "62.1%",
+      "vctr": "0.76%"
+    }
+  ],
+  "portfolioheader":[
+    {
+        "id":1,
+        "name":"Portfolio Name",
+        "value":"portfolio_name"
+    },
+    {
+        "id":2,
+        "name":"Status",
+        "value":"status"
+
+    },
+    {
+        "id":3,
+        "name":"Budget type",
+        "value":"budget_type"
+
+    },
+    { "id":4,
+      "name":"Budget",
+      "value":"budget"
+
+    },
+    { "id":5,
+      "name":"Budget start",
+      "value":"budget_start"
+
+    },
+    {
+        "id":6,
+        "name":"Budget end",
+        "value":"budget_end"
+    },
+    {
+        "id":7,
+        "name":"Campaign count",
+        "value":"campaign_count"
+    },
+    {
+        "id":8,
+        "name":"Impressions",
+        "value":"impressions"
+    },
+   
+    {
+        "id":9,
+        "name":"Clicks",
+        "value":"clicks"
+    },
+    {
+        "id":10,
+        "name":"CTR",
+        "value":"ctr"
+    },
+    {
+        "id":11,
+        "name":"Spend",
+        "value":"spend"
+    },
+    {
+        "id":12,
+        "name":"CPC",
+        "value":"cpc"
+    },
+    {
+        "id":13,
+        "name":"CPC",
+        "value":"cpc"
+    },
+    {
+        "id":12,
+        "name":"Orders",
+        "value":"orders"
+    },
+    {
+        "id":13,
+        "name":"Sales",
+        "value":"sales"
+    },
+    {
+        "id":14,
+        "name":"ACOS",
+        "value":"acos"
+    },
+    {
+        "id":15,
+        "name":"ROAS",
+        "value":"roas"
+    },
+    {
+        "id":16,
+        "name":"NTB-Orders",
+        "value":"ntb_orders"
+    },
+    {
+        "id":17,
+        "name":"% of orders NTB",
+        "value":"ntb"
+    },
+    {
+        "id":18,
+        "name":"% of sales NTB",
+        "value":"sales_ntb"
+    },
+    {
+        "id":19,
+        "name":"Viewable impressions",
+        "value":"viewable_impressions"
+    },
+    {
+        "id":20,
+        "name":"VCPM",
+        "value":"vcpm"
+    }
+    ],
+    "portfoliobody":[
+        {
+            "portfolio_name":"AGL - YUMSIDE",
+            "status":"Delivering",
+            "budget_type":"Fixed",
+            "budget":"₹3,32,456",
+            "budget_start":"Sep 6, 2023",
+            "budget_end":"Sep 6, 2023",
+            "campaign_count":"5467",
+            "impressions":"76899",
+            "clicks":"6899",
+             "ctr":"1.5%" ,
+             "spend":"₹3,56,789",
+             "cpc":"65%",
+             "orders":"",
+             "sales":"",
+             "acos":"",
+             "roas":"",
+             "ntb_orders":"6543",
+             "ntb":"15%",
+             "sales_ntb":"15%",
+             "viewable_impressions":"6789",
+             "vcpm":"₹1,56,74"
+
+        },
+        {
+            "portfolio_name":"AGL - YUMSIDE",
+            "status":"Delivering",
+            "budget_type":"Fixed",
+            "budget":"₹3,32,456",
+            "budget_start":"Sep 6, 2023",
+            "budget_end":"Sep 6, 2023",
+            "campaign_count":"5467",
+            "impressions":"76899",
+            "clicks":"6899",
+             "ctr":"1.5%" ,
+             "spend":"₹3,56,789",
+             "cpc":"65%",
+             "orders":"",
+             "sales":"",
+             "acos":"",
+             "roas":"",
+             "ntb_orders":"6543",
+             "ntb":"15%",
+             "sales_ntb":"15%",
+             "viewable_impressions":"6789",
+             "vcpm":"₹1,56,74"
+        },
+        {
+            "portfolio_name":"AGL - YUMSIDE",
+            "status":"Delivering",
+            "budget_type":"Fixed",
+            "budget":"₹3,32,456",
+            "budget_start":"Sep 6, 2023",
+            "budget_end":"Sep 6, 2023",
+            "campaign_count":"5467",
+            "impressions":"76899",
+            "clicks":"6899",
+             "ctr":"1.5%" ,
+             "spend":"₹3,56,789",
+             "cpc":"65%",
+             "orders":"",
+             "sales":"",
+             "acos":"",
+             "roas":"",
+             "ntb_orders":"6543",
+             "ntb":"15%",
+             "sales_ntb":"15%",
+             "viewable_impressions":"6789",
+             "vcpm":"₹1,56,74"
+        },
+        {
+            "portfolio_name":"AGL - YUMSIDE",
+            "status":"Delivering",
+            "budget_type":"Fixed",
+            "budget":"₹3,32,456",
+            "budget_start":"Sep 6, 2023",
+            "budget_end":"Sep 6, 2023",
+            "campaign_count":"5467",
+            "impressions":"76899",
+            "clicks":"6899",
+             "ctr":"1.5%" ,
+             "spend":"₹3,56,789",
+             "cpc":"65%",
+             "orders":"",
+             "sales":"",
+             "acos":"",
+             "roas":"",
+             "ntb_orders":"6543",
+             "ntb":"15%",
+             "sales_ntb":"15%",
+             "viewable_impressions":"6789",
+             "vcpm":"₹1,56,74"
+        }
+
+    ],
+    "portfoliofooter":[
+        {
+            "portfolio_name":"",
+            "status":"",
+            "budget_type":"",
+            "budget":"",
+            "budget_start":"Sep 6, 2023",
+            "budget_end":"Sep 6, 2023",
+            "campaign_count":"5467",
+            "impressions":"76899",
+            "clicks":"6899",
+             "ctr":"1.5%" ,
+             "spend":"₹3,56,789",
+             "cpc":"65%",
+             "orders":"",
+             "sales":"",
+             "acos":"",
+             "roas":"",
+             "ntb_orders":"6543",
+             "ntb":"15%",
+             "sales_ntb":"15%",
+             "viewable_impressions":"6789",
+             "vcpm":"₹1,56,74"
+
+        }
+
+    ],
+  "creativeheader": [
+  
+      {
+          "id": 1,
+          "name": "State",
+          "value": "state"
+      },
+      {
+          "id": 2,
+          "name": "Creative ID",
+          "value": "creative_id"
+      },
+      {
+          "id": 3,
+          "name": "Campaign Name",
+          "value": "campaign_name"
+      },
+      {
+          "id": 4,
+          "name": "Portfolio",
+          "value": "portfolio"
+      },
+      {
+          "id": 5,
+          "name": "Ad Group",
+          "value": "ad_group"
+      },
+      {
+          "id": 6,
+          "name": "Status",
+          "value": "status"
+      },
+      {
+          "id": 7,
+          "name": "SKU",
+          "value": "sku"
+      },
+      {
+          "id": 8,
+          "name": "ASIN",
+          "value": "asin"
+      },
+      {
+          "id": 9,
+          "name": "Impressions",
+          "value": "impressions"
+      },
+      {
+          "id": 10,
+          "name": "Clicks",
+          "value": "clicks"
+      },
+      {
+          "id": 11,
+          "name": "CTR",
+          "value": "ctr"
+      },
+      {
+          "id": 12,
+          "name": "Spend",
+          "value": "spend_inr"
+      },
+      {
+          "id": 13,
+          "name": "CPC",
+          "value": "cpc_inr"
+      },
+      {
+          "id": 14,
+          "name": "Orders",
+          "value": "orders"
+      },
+      {
+          "id": 15,
+          "name": "Sales",
+          "value": "sales_inr"
+      },
+      {
+          "id": 16,
+          "name": "ACOS",
+          "value": "acos"
+      },
+      {
+          "id": 17,
+          "name": "ROAS",
+          "value": "roas"
+      },
+      {
+          "id": 18,
+          "name": "Ads(eg phrase exact)",
+          "value": "ads"
+      },
+      {
+          "id": 19,
+          "name": "Units Sold",
+          "value": "units_sold"
+      },
+      {
+          "id": 20,
+          "name": "New-to-brand (NTB) orders",
+          "value": "ntb_orders"
+      },
+      {
+          "id": 21,
+          "name": "% of orders new-to-brand (NTB)",
+          "value": "percent_orders_ntb"
+      },
+      {
+          "id": 22,
+          "name": "New-to-brand (NTB) sales",
+          "value": "ntb_sales"
+      },
+      {
+          "id": 23,
+          "name": "% of sales new-to-brand (NTB)",
+          "value": "percent_sales_ntb"
+      }
+  ],
+  
+  "creativebody": [
+    {
+        "state": "",
+        "creative_id": "CreativeID123",
+        "campaign_name": "Campaign A",
+        "portfolio": "Portfolio X",
+        "ad_group": "Ad Group 1",
+        "status": "Enabled",
+        "sku": "SKU123",
+        "asin": "ASIN123",
+        "impressions": "89,432",
+        "clicks": "1,234",
+        "ctr": "1.38%",
+        "spend_inr": "₹2,34,567",
+        "cpc_inr": "₹190.50",
+        "orders": "345",
+        "sales_inr": "₹18,765",
+        "acos": "10.2%",
+        "roas": "4.25",
+        "ads": "Ad1, Ad2 (e.g. phrase, exact)",
+        "units_sold": "167",
+        "ntb_orders": "45",
+        "percent_orders_ntb": "13.04%",
+        "ntb_sales": "₹3,210",
+        "percent_sales_ntb": "17.1%"
+    },
+    {
+      "state": "Active",
+      "creative_id": "CreativeID456",
+      "campaign_name": "Summer Sale",
+      "portfolio": "Electronics",
+      "ad_group": "Ad Group 2",
+      "status": "Enabled",
+      "sku": "SKU456",
+      "asin": "ASIN456",
+      "impressions": "45,678",
+      "clicks": "987",
+      "ctr": "2.15%",
+      "spend_inr": "₹1,23,456",
+      "cpc_inr": "₹125.75",
+      "orders": "123",
+      "sales_inr": "₹9,876",
+      "acos": "8.7%",
+      "roas": "4.25",
+      "ads": "Ad3, Ad4 (e.g. phrase, exact)",
+      "units_sold": "98",
+      "ntb_orders": "34",
+      "percent_orders_ntb": "12.5%",
+      "ntb_sales": "₹2,345",
+      "percent_sales_ntb": "15.2%"
+  }
+
+]
+
+     ,
+  "creativefooter": [
+    {
+      "state": "",
+      "creative_id": "",
+      "campaign_name": "",
+      "portfolio": "",
+      "ad_group": "",
+      "status": "",
+      "sku": "",
+      "asin": "",
+      "impressions": "",
+      "clicks": "987",
+      "ctr": "2.15%",
+      "spend_inr": "₹1,23,456",
+      "cpc_inr": "₹125.75",
+      "orders": "123",
+      "sales_inr": "₹9,876",
+      "acos": "8.7%",
+      "roas": "4.25",
+      "ads": "Ad3, Ad4 (e.g. phrase, exact)",
+      "units_sold": "98",
+      "ntb_orders": "34",
+      "percent_orders_ntb": "12.5%",
+      "ntb_sales": "₹2,345",
+      "percent_sales_ntb": "15.2%"
+    }
+  ],
+  
+    "keywordheader": [
+      {
+        "id": 1,
+        "name": "State",
+        "value": "state"
+      },
+      {
+        "id": 2,
+        "name": "Campaign Name",
+        "value": "campaign_name"
+      },
+      {
+        "id": 3,
+        "name": "Ad Group Name",
+        "value": "ad_group_name"
+      },
+      {
+        "id": 4,
+        "name": "Portfolio Name",
+        "value": "portfolio_name"
+      },
+      {
+        "id": 5,
+        "name": "Keyword",
+        "value": "keyword"
+      },
+      {
+        "id": 6,
+        "name": "Match Type",
+        "value": "match_type"
+      },
+      {
+        "id": 7,
+        "name": "Status",
+        "value": "status"
+      },
+      {
+        "id": 8,
+        "name": "Keyword Bid ",
+        "value": "keyword_bid_inr"
+      },
+      {
+        "id": 9,
+        "name": "Top-of-Search IS",
+        "value": "top_of_search_is"
+      },
+      {
+        "id": 10,
+        "name": "Impressions",
+        "value": "impressions"
+      },
+      {
+        "id": 11,
+        "name": "Clicks",
+        "value": "clicks"
+      },
+      {
+        "id": 12,
+        "name": "CTR",
+        "value": "ctr"
+      },
+      {
+        "id": 13,
+        "name": "Spend ",
+        "value": "spend_inr"
+      },
+      {
+        "id": 14,
+        "name": "CPC ",
+        "value": "cpc_inr"
+      },
+      {
+        "id": 15,
+        "name": "Orders",
+        "value": "orders"
+      },
+      {
+        "id": 16,
+        "name": "Sales ",
+        "value": "sales_inr"
+      },
+      {
+        "id": 17,
+        "name": "ACOS",
+        "value": "acos"
+      },
+      {
+        "id": 18,
+        "name": "ROAS",
+        "value": "roas"
+      },
+      {
+        "id": 19,
+        "name": "NTB Orders",
+        "value": "ntb_orders"
+      },
+      {
+        "id": 20,
+        "name": "% of Orders NTB",
+        "value": "percent_orders_ntb"
+      },
+      {
+        "id": 21,
+        "name": "NTB Sales ",
+        "value": "ntb_sales_inr"
+      },
+      {
+        "id": 22,
+        "name": "% of Sales NTB",
+        "value": "percent_sales_ntb"
+      },
+      {
+        "id": 23,
+        "name": "Detail Page Views (DPV)",
+        "value": "detail_page_views"
+      },
+      {
+        "id": 24,
+        "name": "Units Sold",
+        "value": "units_sold"
+      },
+      {
+        "id": 25,
+        "name": "ID",
+        "value": "id"
+      },
+      {
+        "id": 26,
+        "name": "Audiences",
+        "value": "audiences"
+      }
+    ],
+  
+  
+  
+    "keywordbody": [
+      {
+        "state": "Active",
+        "campaign_name": "Campaign A",
+        "ad_group_name": "Ad Group 1",
+        "portfolio_name": "Portf",
+        "keyword": "Keyword",
+        "match_type": "Exact",
+        "status": "Enabled",
+        "keyword_bid_inr": "₹10.50",
+        "top_of_search_is": "Yes",
+        "impressions": "125,678",
+        "clicks": "2,345",
+        "ctr": "1.87%",
+        "spend_inr": "₹3,56,789",
+        "cpc_inr": "₹150.75",
+        "orders": "456",
+        "sales_inr": "₹25,678",
+        "acos": "11.3%",
+        "roas": "5.67",
+        "ntb_orders": "76",
+        "percent_orders_ntb": "16.67%",
+        "ntb_sales_inr": "₹4,321",
+        "percent_sales_ntb": "17.8%",
+        "detail_page_views": "1,234",
+        "units_sold": "234",
+        "id": "KW123",
+        "audiences": "Aud"
+      },
+      {
+        "state": "Paused",
+        "campaign_name": "Campaign B",
+        "ad_group_name": "Ad Group 2",
+        "portfolio_name": "Po",
+        "keyword": "Keyword",
+        "match_type": "Broad",
+        "status": "Disabled",
+        "keyword_bid_inr": "₹8.25",
+        "top_of_search_is": "No",
+        "impressions": "89,432",
+        "clicks": "1,234",
+        "ctr": "1.38%",
+        "spend_inr": "₹2,34,567",
+        "cpc_inr": "₹190.50",
+        "orders": "345",
+        "sales_inr": "₹18,765",
+        "acos": "10.2%",
+        "roas": "4.25",
+        "ntb_orders": "45",
+        "percent_orders_ntb": "13.04%",
+        "ntb_sales_inr": "₹3,210",
+        "percent_sales_ntb": "17.1%",
+        "detail_page_views": "987",
+        "units_sold": "167",
+        "id": "KW456",
+        "audiences": " B"
+      }
+    ],
+  
+  
+  "keywordfooter":[
+    {
+      "state": "",
+      "campaign_name": "",
+      "ad_group_name": "",
+      "portfolio_name": "",
+      "keyword": "",
+      "match_type": "",
+      "status": "",
+      "keyword_bid_inr": "₹8.25",
+      "top_of_search_is": "No",
+      "impressions": "89,432",
+      "clicks": "1,234",
+      "ctr": "1.38%",
+      "spend_inr": "₹2,34,567",
+      "cpc_inr": "₹190.50",
+      "orders": "345",
+      "sales_inr": "₹18,765",
+      "acos": "10.2%",
+      "roas": "4.25",
+      "ntb_orders": "45",
+      "percent_orders_ntb": "13.04%",
+      "ntb_sales_inr": "₹3,210",
+      "percent_sales_ntb": "17.1%",
+      "detail_page_views": "987",
+      "units_sold": "167",
+      "id": "KW456",
+      "audiences": ""
+    }
+  ],
+  
+    "asinheader": [
+      {
+        "id": 1,
+        "name": "Products",
+        "value": "products"
+      },
+      {
+        "id": 2,
+        "name": "ASIN ID",
+        "value": "asin_id"
+      },
+      {
+        "id": 3,
+        "name": "Portfolio",
+        "value": "portfolio"
+      },
+      {
+        "id": 4,
+        "name": "Campaign Name",
+        "value": "campaign_name"
+      },
+      {
+        "id": 5,
+        "name": "Ad Group",
+        "value": "ad_group"
+      },
+      {
+        "id": 6,
+        "name": "Status",
+        "value": "status"
+      },
+      {
+        "id": 7,
+        "name": "Type",
+        "value": "type"
+      },
+      {
+        "id": 8,
+        "name": "Sales",
+        "value": "sales"
+      },
+      {
+        "id": 9,
+        "name": "ROAS",
+        "value": "roas"
+      },
+      {
+        "id": 10,
+        "name": "Conversion rate",
+        "value": "conversion_rate"
+      },
+      {
+        "id": 11,
+        "name": "Impressions",
+        "value": "impressions"
+      },
+      {
+        "id": 12,
+        "name": "Clicks",
+        "value": "clicks"
+      },
+      {
+        "id": 13,
+        "name": "CTR",
+        "value": "ctr"
+      },
+      {
+        "id": 14,
+        "name": "Spend",
+        "value": "spend"
+      },
+      {
+        "id": 15,
+        "name": "CPC",
+        "value": "cpc"
+      },
+      {
+        "id": 16,
+        "name": "Orders",
+        "value": "orders"
+      },
+      {
+        "id": 17,
+        "name": "ACOS",
+        "value": "acos"
+      },
+      {
+        "id": 18,
+        "name": "NTB orders",
+        "value": "ntb_orders"
+      },
+      {
+        "id": 19,
+        "name": "% of orders NTB",
+        "value": "percent_orders_ntb"
+      },
+      {
+        "id": 20,
+        "name": "NTB sales",
+        "value": "ntb_sales"
+      },
+      {
+        "id": 21,
+        "name": "% of sales NTB",
+        "value": "percent_sales_ntb"
+      },
+      {
+        "id": 22,
+        "name": "Viewable impressions",
+        "value": "viewable_impressions"
+      }
+    ],
+    "asinbody": [
+      {
+        "products": "Product A",
+        "asin_id": "ASIN123",
+        "portfolio": "Port",
+        "campaign_name": "Campaign A",
+        "ad_group": "Ad Group 1",
+        "status": "Enabled",
+        "type": "Type A",
+        "sales": "₹12,345",
+        "roas": "5.67",
+        "conversion_rate": "2.1%",
+        "impressions": "89,432",
+        "clicks": "1,234",
+        "ctr": "1.38%",
+        "spend": "₹2,34,567",
+        "cpc": "₹190.50",
+        "orders": "345",
+        "acos": "10.2%",
+        "ntb_orders": "76",
+        "percent_orders_ntb": "19.2%",
+        "ntb_sales": "₹6,543",
+        "percent_sales_ntb": "28.7%",
+        "viewable_impressions": "5,678"
+      }
+    
+    ],
+    "asinfooter": [
+      {
+        "products": "",
+        "asin_id": "",
+        "portfolio": "",
+        "campaign_name": "",
+        "ad_group": "",
+        "status": "",
+        "type": "",
+        "sales": "",
+        "roas": "",
+        "conversion_rate": "",
+        "impressions": "",
+        "clicks": "",
+        "ctr": "",
+        "spend": "",
+        "cpc": "",
+        "orders": "",
+        "acos": "",
+        "ntb_orders": "",
+        "percent_orders_ntb": "",
+        "ntb_sales": "",
+        "percent_sales_ntb": "",
+        "viewable_impressions": ""
+      }
+    ],
+  
+  
+  "advertiseadgroupheader": [
+    {
+      "id": 1,
+      "name": "State",
+      "value": "state"
+    },
+    {
+      "id": 2,
+      "name": "Ad groups",
+      "value": "ad_groups"
+    },
+    {
+      "id": 3,
+      "name": "Campaign Name",
+      "value": "campaign_name"
+    },
+    {
+      "id": 4,
+      "name": "Status",
+      "value": "status"
+    },
+    {
+      "id": 5,
+      "name": "Keywords",
+      "value": "keywords"
+    },
+    {
+      "id": 6,
+      "name": "Products",
+      "value": "products"
+    },
+    {
+      "id": 7,
+      "name": "Impressions",
+      "value": "impressions"
+    },
+    {
+      "id": 8,
+      "name": "Clicks",
+      "value": "clicks"
+    },
+    {
+      "id": 9,
+      "name": "CTR",
+      "value": "ctr"
+    },
+    {
+      "id": 10,
+      "name": "Spend",
+      "value": "spend_inr"
+    },
+    {
+      "id": 11,
+      "name": "CPC",
+      "value": "cpc_inr"
+    },
+    {
+      "id": 12,
+      "name": "Orders",
+      "value": "orders"
+    },
+    {
+      "id": 13,
+      "name": "Sales",
+      "value": "sales"
+    },
+    {
+      "id": 14,
+      "name": "ACOS",
+      "value": "acos"
+    },
+    {
+      "id": 15,
+      "name": "Ads",
+      "value": "ads"
+    },
+    {
+      "id": 16,
+      "name": "Unit Solds",
+      "value": "unit_solds"
+    },
+    {
+      "id": 17,
+      "name": "New-to-brand(NTB)orders",
+      "value": "new_brandorders"
+    },
+    {
+      "id": 18,
+      "name": "% of orders new-to-brand(NTB)",
+      "value": "percent_new"
+    },
+    {
+      "id": 19,
+      "name": "New-to-brand(NTB)sales",
+      "value": "new_brand_ntbsales"
+    },
+    {
+      "id": 20,
+      "name": "% of sales new-to-brand(NTB)",
+      "value": "percent_sales_newntb"
+    }
+  
+  ],
+ 
+"advertiseadgroupbody": [
+    {
+        "state": "active",
+        "ad_groups": "AdGroup1",
+        "campaign_name": "Campaign A",
+        "status": "Enabled",
+        "keywords": "keyword1",
+        "products": "coffee",
+        "impressions": "125,678",
+        "clicks": "2,345",
+        "ctr": "1.87%",
+        "spend_inr": "₹3,56,789",
+        "cpc_inr": "₹150.75",
+        "orders": "456",
+        "sales": "₹25,678",
+        "acos": "11.3%",
+        "ads": "Ad1, Ad2",
+        "unit_solds": "789",
+        "new_brandorders": "98",
+        "percent_new": "21.5%",
+        "new_brand_ntbsales": "₹7,890",
+        "percent_sales_newntb": "30.8%"
+    },
+    {
+      "state": "active",
+      "ad_groups": "AdGroup2",
+      "campaign_name": "Campaign B",
+      "status": "Enabled",
+      "keywords": "keyword",
+      "products": "Product ",
+      "impressions": "89,432",
+      "clicks": "1,234",
+      "ctr": "1.38%",
+      "spend_inr": "₹2,34,567",
+      "cpc_inr": "₹190.50",
+      "orders": "345",
+      "sales": "₹18,765",
+      "acos": "10.2%",
+      "ads": "Ad3, Ad4",
+      "unit_solds": "567",
+      "new_brandorders": "76",
+      "percent_new": "19.2%",
+      "new_brand_ntbsales": "₹6,543",
+      "percent_sales_newntb": "28.7%"
+  },
+  {
+    "state": "active",
+    "ad_groups": "AdGroup2",
+    "campaign_name": "Campaign B",
+    "status": "Enabled",
+    "keywords": "keyword",
+    "products": "abs ",
+    "impressions": "89,432",
+    "clicks": "1,234",
+    "ctr": "1.38%",
+    "spend_inr": "₹2,34,567",
+    "cpc_inr": "₹190.50",
+    "orders": "345",
+    "sales": "₹18,765",
+    "acos": "10.2%",
+    "ads": "Ad3, Ad4",
+    "unit_solds": "567",
+    "new_brandorders": "76",
+    "percent_new": "19.2%",
+    "new_brand_ntbsales": "₹6,543",
+    "percent_sales_newntb": "28.7%"
+}
+
+   
+],
+  "adgroupfooter": [
+    {
+      "state": "",
+        "ad_groups": "",
+        "campaign_name": "",
+        "status": "",
+        "keywords": "",
+        "products": " ",
+        "impressions": "89,432",
+        "clicks": "1,234",
+        "ctr": "1.38%",
+        "spend_inr": "₹2,34,567",
+        "cpc_inr": "₹190.50",
+        "orders": "345",
+        "sales": "₹18,765",
+        "acos": "10.2%",
+        "ads": "Ad3, Ad4",
+        "unit_solds": "567",
+        "new_brandorders": "76",
+        "percent_new": "19.2%",
+        "new_brand_ntbsales": "₹6,543",
+        "percent_sales_newntb": "28.7%"
+    }
+  ],
+  "targetheader": [
+    {
+      "id": 1,
+      "name": "Keywords",
+      "value": "keywords"
+    },
+    {
+      "id": 2,
+      "name": "State",
+      "value": "state"
+    },
+    {
+      "id": 3,
+      "name": "Current Bid",
+      "value": "current_bid"
+    },
+    {
+      "id": 4,
+      "name": "Suggested Bid",
+      "value": "suggested_bid"
+    },
+    {
+      "id": 5,
+      "name": " Type",
+      "value": "type"
+    },
+    {
+      "id": 6,
+      "name": "Match Type",
+      "value": "match"
+    },
+    {
+      "id": 7,
+      "name": "Campaign Name",
+      "value": "campaignname"
+    },
+    {
+      "id": 8,
+      "name": "AdGroupName",
+      "value": "adgroupname"
+    },
+    {
+      "id": 9,
+      "name": "Status",
+      "value": "status"
+    },
+    {
+      "id": 10,
+      "name": "Impressions",
+      "value": "impression"
+    },
+    {
+      "id": 11,
+      "name": "Clicks",
+      "value": "clicks"
+    },
+    {
+      "id": 12,
+      "name": "CTR",
+      "value": "ctr"
+    },
+    {
+      "id": 13,
+      "name": "Spend",
+      "value": "spend"
+    },
+    {
+      "id": 14,
+      "name": "CPC",
+      "value": "cpc"
+    },
+    {
+      "id": 15,
+      "name": "Sales",
+      "value": "sales"
+    },
+    {
+      "id": 16,
+      "name": "Orders",
+      "value": "orders"
+    },
+    {
+      "id": 17,
+      "name": "SaleUnits",
+      "value": "saleunits"
+    },
+    {
+      "id": 18,
+      "name": "CVR",
+      "value": "cvr"
+    },
+    {
+      "id": 19,
+      "name": "CPA",
+      "value": "cpa"
+    },
+    {
+      "id": 20,
+      "name": "ROAS",
+      "value": "roas"
+    },
+    {
+      "id": 21,
+      "name": "ACOS",
+      "value": "acos"
+    }
+  ],
+  "targetbody": [
+    {
+      "keyword": "harpic",
+      "state": "enabled",
+      "current_bid": "$90.00",
+      "suggested_bid": "$28.18",
+      "type": "SP-Manual",
+      "match": "exact",
+      "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+      "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+      "status": "Paused",
+      "impression": "764,857",
+      "clicks": "9,890",
+      "ctr": "1.29%",
+      "spend": "$439,235.54",
+      "cpc": "$44.41",
+      "sales": "$3,408,928.00",
+      "orders": "5,539",
+      "saleunits": "8,642",
+      "cvr": "56.01%",
+      "cpa": "$79.30",
+      "roas": "$7.76",
+      "acos": "12.88%"
+    },
+    {
+      "keyword": "floor cleaner",
+      "state": "enabled",
+      "current_bid": "$31.14",
+      "suggested_bid": "$63.10",
+      "type": "SP-Manual",
+      "match": "exact",
+      "campaignname": "RB_HYHO_LIZOL_DFC_SP_KW_EXACT_CATEGORY_100K+_JAN23",
+      "adgroupname": "2L/2.5L_EXACT_CATEGORY_100K+",
+      "status": "Enabled",
+      "impression": "693,738",
+      "clicks": "2,590",
+      "ctr": "0.37%",
+      "spend": "$519,253.05",
+      "cpc": "$200.48",
+      "sales": "$180,228.67",
+      "orders": "540",
+      "saleunits": "566",
+      "cvr": "20.85%",
+      "cpa": "$961.58",
+      "roas": "$0.35",
+      "acos": "288.11%"
+    },
+    {
+      "keyword": "harpic toilet cleaner 1 litre offer",
+      "state": "Enabled",
+      "current_bid": "$64.80",
+      "suggested_bid": "$27.26",
+      "type": "SP-Manual",
+      "match": "Exact",
+      "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+      "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+      "status": "Paused",
+      "impression": "2,076,414",
+      "clicks": "9,890",
+      "ctr": "1.29%",
+      "spend": "$439,235.54",
+      "cpc": "$44.41",
+      "sales": "$3,408,928.00",
+      "orders": "5,539",
+      "saleunits": "8,642",
+      "cvr": "56.01%",
+      "cpa": "$79.30",
+      "roas": "$7.76",
+      "acos": "12.88%"
+    },
+    {
+      "keyword": "lizol",
+      "state": "Enabled",
+      "current_bid": "$0.00",
+      "suggested_bid": "$57.39",
+      "type": "SP-Manual",
+      "match": "Exact",
+      "campaignname": "RB_HYHO_LIZOL_DFC_SP_KW_EXACT_BRAND_100K+_JAN23",
+      "adgroupname": "2L/2.5L_EXACT_BRAND_100K+",
+      "status": "Enabled",
+      "impression": "408,494",
+      "clicks": "6,645",
+      "ctr": "1.63%",
+      "spend": "$345,315.82",
+      "cpc": "$51.97",
+      "sales": "$180,228.67",
+      "orders": "540",
+      "saleunits": "566",
+      "cvr": "20.85%",
+      "cpa": "$961.58",
+      "roas": "$0.35",
+      "acos": "288.11%"
+    },
+    {
+      "keyword": "harpic toilet cleaner",
+      "state": "Enabled",
+      "current_bid": "$0.00",
+      "suggested_bid": "$72.00",
+      "type": "SP-Manual",
+      "match": "Exact",
+      "campaignname": "RB_HYHO_HARPIC_TC_SP_KW_EXACT_BRAND_100K+_FEB23",
+      "adgroupname": "HTC_PO3_EXACT_BRAND_100K+",
+      "status": "Paused",
+      "impression": "1,326,980",
+      "clicks": "7,093",
+      "ctr": "0.53%",
+      "spend": "$337,251.84",
+      "cpc": "$47.55",
+      "sales": "$1,916,884.44",
+      "orders": "540",
+      "saleunits": "566",
+      "cvr": "20.85%",
+      "cpa": "$961.58",
+      "roas": "$0.35",
+      "acos": "288.11%"
+    }
+  ],
+
+  "targetfooter": [
+    {
+      "keyword": "",
+      "state": "",
+      "current_bid": "",
+      "suggested_bid": "",
+      "type": "",
+      "match": "exact",
+      "campaignname": "",
+      "adgroupname": "",
+      "status": "",
+      "impression": "409,789,492",
+      "clicks": "754,851",
+      "ctr": "0.18%",
+      "spend": "$25.96",
+      "cpc": "",
+      "sales": "$71,261,301.00",
+      "orders": "223,377",
+      "saleunits": "255,320",
+      "cvr": "29.59%",
+      "cpa": "$87.74",
+      "roas": "$3.64",
+      "acos": "27.50%"
+    }
+  ],
+  "profileheader": [
+    {
+      "id": 1,
+      "name": "Profile",
+      "value": "profile",
+      "type": "single"
+    },
+    {
+      "id": 2,
+      "name": "Add Time",
+      "value": "add_time"
+    },
+    {
+      "id": 3,
+      "name": "Type",
+      "value": "type"
+    },
+    {
+      "id": 4,
+      "name": "Impressions",
+      "value": "impressions"
+    },
+    {
+      "id": 5,
+      "name": "Clicks",
+      "value": "clicks"
+    },
+    {
+      "id": 6,
+      "name": "CTR",
+      "value": "ctr"
+    },
+    {
+      "id": 7,
+      "name": "Spend",
+      "value": "spend"
+    },
+    {
+      "id": 9,
+      "name": "CPC",
+      "value": "cpc"
+    },
+    {
+      "id": 10,
+      "name": "Sales",
+      "value": "sales"
+    },
+    {
+      "id": 11,
+      "name": "Orders",
+      "value": "orders"
+    },
+    {
+      "id": 12,
+      "name": "Sale Units",
+      "value": "sale_units"
+    },
+    {
+      "id": 13,
+      "name": "CVR",
+      "value": "cvr"
+    },
+    {
+      "id": 14,
+      "name": "CPA",
+      "value": "cpa"
+    },
+    {
+      "id": 15,
+      "name": "ACOS",
+      "value": "acos"
+    },
+    {
+      "id": 16,
+      "name": "ROAS",
+      "value": "roas"
+    },
+    {
+      "id": 17,
+      "name": "TACOS",
+      "value": "tacos"
+    },
+    {
+      "id": 18,
+      "name": "NTB-Orders",
+      "value": "ntb_orders"
+    },
+    {
+      "id": 19,
+      "name": "NTB-OrdersPercentage",
+      "value": "ntb_orderspercentage"
+    },
+    {
+      "id": 20,
+      "name": "NTB-OrderRate",
+      "value": "ntb-ordersrate"
+    },
+    {
+      "id": 21,
+      "name": "NTB-Sales",
+      "value": "ntb_sales"
+    },
+    {
+      "id": 21,
+      "name": "NTB-SalesPercentage",
+      "value": "ntb_salespercentage"
+    }
+  ],
+  "profilebody": [
+    {
+      "profile": "Harpic [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "181,731,885",
+      "clicks": "316,973",
+      "ctr": "0.17%",
+      "spend": "$7,609,693",
+      "cpc": "$24.00",
+      "sales": "$29,535,774",
+      "orders": "104,834",
+      "sale_units": "119,657",
+      "cvr": "33.07%",
+      "cpa": "$72.58",
+      "acos": "$25.76%",
+      "roas": "$3.88",
+      "tacos": "-",
+      "ntb_orders": "10.801",
+      "ntb_orderspercentage": "58.56%",
+      "ntb_ordersrate": "11.26%",
+      "ntb_sales": "$2,582,718.56",
+      "ntb_salespercentage": "53.87%",
+      "ntb_units": "12,632"
+    },
+    {
+      "profile": "Lizol [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "191,781,451",
+      "clicks": "166,982",
+      "ctr": "0.09%",
+      "spend": "$5,432,301.25",
+      "cpc": "$32.53",
+      "sales": "$17,597,180.56",
+      "orders": "48,208",
+      "sale_units": "48,751",
+      "cvr": "28.87%",
+      "cpa": "$112.68",
+      "acos": "30.87%",
+      "roas": "$3.24",
+      "tacos": "-",
+      "ntb_orders": "4,552",
+      "ntb_orderspercentage": "58.23%",
+      "ntb_ordersrate": "10.73%",
+      "ntb_sales": "$1,413,705.16",
+      "ntb_salespercentage": "55.06%",
+      "ntb_units": "4,940"
+    },
+    {
+      "profile": "Airwick [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "66,008,468",
+      "clicks": "196,228",
+      "ctr": "0.30%",
+      "spend": "$3,213,403.61",
+      "cpc": "$16.37",
+      "sales": "$12,544,054.20",
+      "orders": "29,783",
+      "sale_units": "33,205",
+      "cvr": "15.18%",
+      "cpa": "$107.89",
+      "acos": "25.62%",
+      "roas": "$3.90",
+      "tacos": "-",
+      "ntb_orders": "6,377",
+      "ntb_orderspercentage": "75.12%",
+      "ntb_ordersrate": "7.81%",
+      "ntb_sales": "$2,748,731.66",
+      "ntb_salespercentage": "77.31%",
+      "ntb_units": "7,485"
+    },
+    {
+      "profile": "Finish [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "50,857,317",
+      "clicks": "101,029",
+      "ctr": "0.20%",
+      "spend": "$2,515,278.26",
+      "cpc": "$24.89",
+      "sales": "$22,377,236.65",
+      "orders": "45,178",
+      "sale_units": "47,372",
+      "cvr": "44.72%",
+      "cpa": "$55.67",
+      "acos": "11.24%",
+      "roas": "$8.90",
+      "tacos": "--",
+      "ntb_orders": "2,314",
+      "ntb_orderspercentage": "33.52%",
+      "ntb_ordersrate": "8.38%",
+      "ntb_sales": "$1,415,987.77",
+      "ntb_salespercentage": "31.71%",
+      "ntb_units": "2,424"
+    },
+    {
+      "profile": "Mortein [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "57,996,633",
+      "clicks": "104,880",
+      "ctr": "0.18%",
+      "spend": "$2,493,320.10",
+      "cpc": "$23.77",
+      "sales": "$4,110,751.05",
+      "orders": "16,621",
+      "sale_units": "21,174",
+      "cvr": "15.85%",
+      "cpa": "$150.01",
+      "acos": "60.65%",
+      "roas": "$1.65",
+      "tacos": "-",
+      "ntb_orders": "1,376",
+      "ntb-orderspercentage": "69.28%",
+      "ntb-ordersrate": "6.42%",
+      "ntb_sales": "$346,423.18",
+      "ntb_salespercentage": "67.16%",
+      "ntb_units": "1,767"
+    },
+    {
+      "profile": "Vanish [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "61,596,326",
+      "clicks": "91,989",
+      "ctr": "0.15%",
+      "spend": "$1,974,750.00",
+      "cpc": "$21.46",
+      "sales": "$5,705,679.64",
+      "orders": "26,125",
+      "sale_units": "31,695",
+      "cvr": "28.40%",
+      "cpa": "$75.58",
+      "acos": "34.61%",
+      "roas": "$2.89",
+      "tacos": "-",
+      "ntb_orders": "2,048",
+      "ntb_orderspercentage": "56.09%",
+      "ntb_ordersrate": "8.21%",
+      "ntb_sales": "$430,755.00",
+      "ntb_salespercentage": "50.95%",
+      "ntb_units": "2,429"
+    },
+    {
+      "profile": "Colin [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "22,116,794",
+      "clicks": "73,571",
+      "ctr": "0.33%",
+      "spend": "$1,317,413.18",
+      "cpc": "$17.90",
+      "sales": "$5,544,189.83",
+      "orders": "26,901",
+      "sale_units": "33,738",
+      "cvr": "36.56%",
+      "cpa": "$48.97",
+      "acos": "23.76%",
+      "roas": "$4.21",
+      "tacos": "-",
+      "ntb_orders": "2,940",
+      "ntb_orderspercentage": "68.41%",
+      "ntb_ordersrate": "12.00%",
+      "ntb_sales": "$516,908.29",
+      "ntb_salespercentage": "63.64%",
+      "ntb_units": "3,693"
+    },
+    {
+      "profile": "Cherry Blossom [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "5,644,359",
+      "clicks": "36,060",
+      "ctr": "0.64%",
+      "spend": "$374,356.60",
+      "cpc": "$10.38",
+      "sales": "$832,395.17",
+      "orders": "11,102",
+      "sale_units": "12,273",
+      "cvr": "30.79%",
+      "cpa": "$33.71",
+      "acos": "$33.71",
+      "roas": "44.97%",
+      "tacos": "-",
+      "ntb_orders": "0",
+      "ntb_orderspercentage": "0.00%",
+      "ntb_ordersrate": "0.00%",
+      "ntb_sales": "$0.00",
+      "ntb_salespercentage": "0.00%",
+      "ntb_units": "0"
+    },
+    {
+      "profile": "Brasso [IN]",
+      "add_time": "06/30/2021 05:04:11",
+      "type": "1P",
+      "impressions": "3,933,450",
+      "clicks": "10,965",
+      "ctr": "0.28%",
+      "spend": "$106,364.47",
+      "cpc": "$9.70",
+      "sales": "$717,062.08",
+      "orders": "2,670",
+      "sale_units": "2,492",
+      "cvr": "24.35%",
+      "cpa": "$39.83",
+      "acos": "14.83%",
+      "roas": "$6.74",
+      "tacos": "-",
+      "ntb_orders": "555",
+      "ntb_orderspercentage": "94.06%",
+      "ntb_ordersrate": "15.15%",
+      "ntb_sales": "$129,713.29",
+      "ntb_salespercentage": "89.87%",
+      "ntb_units": "578"
+    }
+  ],
+ 
+ 
+  
+    "placementheader": [
+      {
+        "id": 1,
+        "name": "Campaign",
+        "value": "campaign"
+      },
+      {
+        "id": 2,
+        "name": "Placements",
+        "value": "placements"
+      },
+      {
+        "id": 3,
+        "name": "Campaign bidding strategy",
+        "value": "campaign_bidding_strategy"
+      },
+      {
+        "id": 4,
+        "name": "Impressions",
+        "value": "impressions"
+      },
+      {
+        "id": 5,
+        "name": "Clicks",
+        "value": "clicks"
+      },
+      {
+        "id": 6,
+        "name": "CTR",
+        "value": "ctr"
+      },
+      {
+        "id": 7,
+        "name": "Spend",
+        "value": "spend"
+      },
+      {
+        "id": 8,
+        "name": "CPC",
+        "value": "cpc"
+      },
+      {
+        "id": 9,
+        "name": "Orders",
+        "value": "orders"
+      },
+      {
+        "id": 10,
+        "name": "Sales",
+        "value": "sales"
+      },
+      {
+        "id": 11,
+        "name": "ACOS",
+        "value": "acos"
+      },
+      {
+        "id": 12,
+        "name": "ROAS",
+        "value": "roas"
+      }
+    ],
+    "placementbody": [
+      {
+        "campaign": "Campaign A",
+        "placements": "Placement",
+        "campaign_bidding_strategy": "Bidding",
+        "impressions": "89,432",
+        "clicks": "1,234",
+        "ctr": "1.38%",
+        "spend": "₹2,34,567",
+        "cpc": "₹190.50",
+        "orders": "345",
+        "sales": "₹12,345",
+        "acos": "10.2%",
+        "roas": "5.67"
+      }
+     
+    ],
+    "placementfooter": [
+      {
+        "campaign": "",
+        "placements": "",
+        "campaign_bidding_strategy": "",
+        "impressions": "",
+        "clicks": "",
+        "ctr": "",
+        "spend": "",
+        "cpc": "",
+        "orders": "",
+        "sales": "",
+        "acos": "",
+        "roas": ""
+      }
+    ]
+  
+  
+
+   
+      
+    
+}
+
+

@@ -1,0 +1,26 @@
+.campaignreportcheckbox__table th {
+  background: #fafafa;
+  font-weight: 800;
+}
+.campaignreportcheckbox__table tr {
+  background: white;
+}
+
+.campaignreportcheckbox__table th:nth-of-type(1),
+.campaignreportcheckbox__table th:nth-of-type(2) {
+  background: #fafafa;
+  font-weight: 800;
+}
+/* .tr:nth-child(even) td{
+    background-color: white;
+}
+.tr:nth-child(odd) td{
+    background-color: white;
+} */
+.pinDiv:hover {
+  display: flex;
+}
+
+.p-dropdown-items-wrapper> .p-dropdown-items> .p-dropdown-item:hover{
+  @apply !bg-amsPrimary
+}

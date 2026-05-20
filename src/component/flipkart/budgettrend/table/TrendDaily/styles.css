@@ -1,0 +1,62 @@
+.budgetpacer--tablecontent td:nth-of-type(1),
+.budgetpacer--tablecontent td:nth-of-type(2) {
+  @apply top-0 left-0 z-30;
+}
+
+
+.tableContentBudget td:nth-of-type(1),
+.tableContentBudget td:nth-of-type(2) {
+  @apply sticky top-0 left-0 z-30;
+}
+
+.tableContentBudget td:nth-of-type(2) {
+  @apply left-64;
+  min-width: 130px;
+}
+
+
+.campaignreport__table th:nth-of-type(1),
+.campaignreport__table th:nth-of-type(2) {
+  @apply sticky top-0 left-0 bg-gray-100 z-30;
+}
+.budgetpacer--tablecontent--even td {
+  background: white !important;
+}
+.budgetpacer--tablecontent--odd td {
+  background: #f1f5f9  !important;
+}
+
+.budgetpacer--tablecontent td:nth-of-type(2) {
+  @apply left-64;
+  min-width: 130px;
+}
+.budgetpacer--tablecontent--campReport {
+  @apply h-16;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px !important;
+  font-size: 13px;
+  font-weight: 400;
+  border-top: none;
+  line-height: 18px;
+}
+.budgetpacer--tablecontent--campReport td:nth-of-type(1),
+.budgetpacer--tablecontent--campReport td:nth-of-type(2) {
+  @apply sticky top-0 left-0 z-30;
+}
+.budgetpacer--tablecontent--campReport td:nth-of-type(2) {
+  @apply left-[400px];
+  min-width: 130px;
+}
+
+.budgetpacer--tablecontent td:nth-of-type(1) {
+  min-width: 256px;
+}
+
+.budgetpacer--tablecontent--budgetTrend td:nth-of-type(2) {
+  @apply left-64;
+  min-width: 130px;
+}
+
+.budgetpacer--tablecontent--budgetTrend td:nth-of-type(1) {
+  min-width: 50px;
+}

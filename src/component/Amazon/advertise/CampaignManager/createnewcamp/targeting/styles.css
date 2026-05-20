@@ -1,0 +1,5 @@
+
+  .targetTable tr:nth-child(even) td{
+    @apply bg-white;
+  }
+  

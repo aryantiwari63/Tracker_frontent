@@ -1,0 +1,7 @@
+/* .flipkart__calander {
+  @apply col_3 px-2 relative;
+} */
+option:hover {
+  background-color: var(--selectHoverCol);
+  color: #fff;
+}

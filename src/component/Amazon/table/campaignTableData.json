@@ -1,0 +1,188 @@
+{
+    "header":[
+        {
+            "id":1,
+            "name":"Campaign Type",
+            "value":"campaign type"
+        },
+        {
+            "id":2,
+            "name":"Impressions",
+            "value":"impression"
+        },
+        {
+            "id":3,
+            "name":"Clicks",
+            "value":"clicks"
+        },
+        {
+            "id":4,
+            "name":"Spend/Spend%",
+            "value":"spend_spend"
+           
+        },
+        {
+            "id":5,
+            "name":"Sales/Sale%",
+            "value":"sales_sales"
+            
+
+        },
+        {
+            "id":6,
+            "name":"ROAS",
+            "value":"roas"
+        },{
+            "id":7,
+            "name":"CPC",
+            "value":"cpc"
+        },{
+            "id":8,
+            "name":"CPA",
+            "value":"cpa"
+        },
+        {
+            "id":9,
+            "name":"CTR",
+            "value":"ctr"
+        },
+        {
+            "id":10,
+            "name":"CVR",
+            "value":"cvr"
+        }
+    ],
+    "body":[
+        {
+            "campaigntype":"Sponsored Products",
+            "impressions":"581.9M",
+            "clicks":"776M",
+            "spend_spend%":"19.4M/77.44%",
+            "sale_sale%":"81.3M/82.11%",
+            "roas":"4.19",
+            "cpc":"24.98",
+            "cpa":"74.79",
+            "ctr":"0.13%",
+            "cvr":"33.14%"
+
+        },
+        {
+            "campaigntype":"Sponsored Brands",
+            "impressions":"45.1M",
+            "clicks":"283.6M",
+            "spend/spend%":"51M/20.35%",
+            "sale/sale%":"15.8M/15.96%",
+            "roas":"3",
+            "cpc":"17.97",
+            "cpa":"105.54",
+            "ctr":"0.63%",
+            "cvr":"17.03%"
+
+        },
+        {
+            "campaigntype":"Sponsored Display",
+            "impressions":"14.7M",
+            "clicks":"39.1K",
+            "spend/spend%":"553.8K/2.21%",
+            "sale/sale%":"1.9M/1.92%",
+            "roas":"3.44",
+            "cpc":"14.17",
+            "cpa":"141.78",
+            "ctr":"0.27%",
+            "cvr":"9.99%"
+
+        },
+        {
+            "campaigntype":"Total",
+            "impressions":"641.7M",
+            "clicks":"1.1M",
+            "spend/spend%":"25M/100.00%",
+            "sale/sale%":"99M/100.00%",
+            "roas":"3.95",
+            "cpc":"22.79",
+            "cpa":"80.4",
+            "ctr":"0.17%",
+            "cvr":"28.35%"
+
+        }
+
+        
+
+],
+
+"adverstisecampheader":[
+    {
+        "id":1,
+        "name":"Campaign Name",
+        "value":"campaign type"
+    },
+    {
+        "id":2,
+        "name":"State",
+        "value":"state"
+    },
+    {
+        "id":3,
+        "name":"Status",
+        "value":"status"
+    },
+    {
+        "id":4,
+        "name":"Active/Total Adgroup",
+        "value":"activetotaladgroup"
+    },
+    {
+        "id":5,
+        "name":"Profile Name",
+        "value":"profile name"
+    },
+    {
+        "id":6,
+        "name":"Campaign Type",
+        "value":"campaign type"
+    },
+    {
+        "id":7,
+        "name":"Targeting Type",
+        "value":"targeting type"
+    },
+    {
+        "id":8,
+        "name":"Daily Budget",
+        "value":"daily budget"
+    },
+    {
+        "id":9,
+        "name":"Active Bid/Avl Bid",
+        "value":"bid"
+    },
+    {
+        "id":10,
+        "name":"Impressions",
+        "value":"impression"
+    },
+    {
+        "id":11,
+        "name":"Clicks",
+        "value":"clicks"
+    },
+    {
+        "id":12,
+        "name":"CTR",
+        "value":"ctr"
+    },
+    {
+        "id":13,
+        "name":"Spend",
+        "value":"spend"
+    },
+    {
+        "id":14,
+        "name":"CPC",
+        "value":"cpc"
+    }
+
+]
+
+
+}

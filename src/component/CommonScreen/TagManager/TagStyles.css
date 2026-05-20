@@ -1,0 +1,42 @@
+.tagColorPicker {
+  border-radius: 0.25rem; /* rounded */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* drop-shadow-md */
+  background-color: #ffffff; /* bg-white */
+  width: max-content; /* w-max */
+  position: absolute; /* absolute */
+  z-index: 100; /* z-[100] */
+  right: 1rem; /* right-5 */
+}
+
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) {
+  top: 6.5px !important;
+  height: 10px !important;
+}
+
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) label  {
+  top: 4.5px !important;
+}
+
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(3),
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(4),
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(5)  {
+  /* top: 4px !important; */
+display: flex !important;
+align-items: center !important;
+}
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(3) input,
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(4) input,
+.tagColorPicker > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(5) input {
+  /* top: 4px !important; */
+position: absolute;
+top: 4.5px !important;
+}
+
+.tabStyle td {
+  padding-left: 20px;
+}
+
+.checkboxPadding {
+padding-left: 0 !important;
+text-align: center;
+}

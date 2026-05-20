@@ -1,0 +1,51 @@
+{
+    "draw": 1,
+    "iTotalRecords": 48,
+    "iTotalDisplayRecords": 24,
+    "blinkitreachtable": [
+        {
+           "campaign_name":"Reach",
+           "spend":4536,
+           "cpm":5494,
+           "impression":200304,
+           "other":{
+              "badge":"campaign_name",
+              "type":"PLA"
+           }
+           
+        },
+        {
+            "campaign_name":"Performance",
+            "spend":4536,
+            "cpm":5494,
+            "impression":200304,
+            "other":{
+               "badge":"campaign_name",
+           "type":"PCA"
+            }
+            
+         },
+         {
+            "campaign_name":"Reach",
+            "spend":4536,
+            "cpm":5494,
+            "impression":200304,
+            "other":{
+               "badge":"campaign_name",
+           "type":"PLA"
+            }
+            
+         },
+         {
+            "campaign_name":"Performance",
+            "spend":4536,
+            "cpm":5494,
+            "impression":200304,
+            "other":{
+               "badge":"campaign_name",
+           "type":"PCA"
+            }
+            
+         }
+    ]
+}

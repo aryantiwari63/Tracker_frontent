@@ -1,0 +1,63 @@
+.platform-logo {
+  width: 100px;
+}
+.plaform-radio {
+  margin-right: 4px;
+}
+.platform-label {
+  display: flex;
+  border-radius: 4px;
+  padding: 6px;
+  border: 1px solid rgb(228, 226, 226);
+  cursor: pointer;
+
+}
+.platform-container {
+  @apply py-1;
+  padding-left: 0px;
+  padding-right: 3px;
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+.first-row{
+  @apply w-full px-1 ;
+  
+}
+
+.disableMulti div {
+  cursor: not-allowed;
+}
+
+.rmsc--blinkit {
+  --rmsc-main: #11b07a  !important;
+  --rmsc-hover: #f1f3f5  !important;
+  --rmsc-selected: #e2e6ea  !important;
+  --rmsc-border: #ccc !important;
+  --rmsc-gray: #aaa  !important;
+  --rmsc-bg: #fff  !important;
+  --rmsc-p: 10px  !important; /* Spacing */
+  --rmsc-radius: 4px  !important; /* Radius */
+  --rmsc-h: 30px !important; /* Height */
+}
+
+.rmsc--blinkit .select-item:hover {
+  background-color: #11b07a !important;
+}
+
+.rmsc--blinkit .item-renderer input {
+  position: relative !important;
+}
+.rmsc--blinkit .item-renderer input:checked::after {
+  content: "\2714" !important;
+  color: white !important;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  padding: 1px 2px !important;
+  background-color: #11b07a !important;
+
+  line-height: 14px;
+}
+
+

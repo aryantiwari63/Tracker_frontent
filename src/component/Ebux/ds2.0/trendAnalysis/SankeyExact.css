@@ -1,0 +1,41 @@
+
+.sankey-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  overflow-x: auto;
+  /* enable horizontal scroll only inside chart */
+  overflow-y: auto;
+  max-width: 100%;
+  min-width: 0;
+  /* prevent parent flex from forcing page scroll */
+}
+
+.selection-info {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sankey-inner {
+  display: inline-block;
+  /* min-width: 100% !important; */
+  /* base width; chart grows via inline width */
+}
+
+/* Ensure nodes are clickable */
+.sankey-wrapper .echarts-for-react canvas {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+  -webkit-user-drag: none;
+  /* Prevent dragging on webkit browsers */
+  -moz-user-select: none;
+  /* Prevent selection on Firefox */
+  -ms-user-select: none;
+  /* Prevent selection on IE/Edge */
+}
+
+.echarts-for-react {
+  width:  100% !important;
+}

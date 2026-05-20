@@ -1,0 +1,146 @@
+[
+  {
+    "as": "link",
+    "linkTitle": "Global Summary",
+    "imgsrc": "/assets/images/tag.svg",
+    "linkPath": "/global-view",
+    "sidebar": "/dashboard",
+    "icon": "far fa-globe",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Analytics",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "linkPath": "/dashboard",
+    "sidebar": "/dashboard",
+    "icon": "far fa-home-lg-alt",
+    "disable": false,
+    "externalRedirect": false,
+    "childNav": [
+      "/ebux/reports/on_shelf_availability",
+      "/ebux/reports/share_of_search",
+      "/ebux/reports/organic_ranking",
+      "/ebux/reports/content_score",
+      "/ebux/reports/promotions",
+      "/ebux/reports/rating_reviews",
+      "/ebux/reports/share_of_merchandise"
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Buy Box Analytics",
+    "imgsrc": "/assets/images/master/buy-box-analytics.png",
+    "linkPath": "/createMaster/by-box-trends",
+    "sidebar": "/dashboard",
+    "icon": "far fa-chart-line",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Pricing Rule Engine",
+    "imgsrc": "/assets/images/master/buy-box-analytics.png",
+    "linkPath": "/pricing-rule-engine",
+    "sidebar": "/dashboard",
+    "icon": "far fa-chart-line",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Dashboard",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "linkPath": "/dashboard",
+    "sidebar": "/dashboard",
+    "icon": "far fa-home-lg-alt",
+    "disable": false,
+    "externalRedirect": false,
+    "childNav": [
+      "/ebux/reports/on_shelf_availability",
+      "/ebux/reports/share_of_search",
+      "/ebux/reports/organic_ranking",
+      "/ebux/reports/content_score",
+      "/ebux/reports/promotions",
+      "/ebux/reports/rating_reviews",
+      "/ebux/reports/share_of_merchandise"
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Tag Manager",
+    "imgsrc": "/assets/images/tag.svg",
+    "linkPath": "/tagManager",
+    "sidebar": "/dashboard",
+    "icon": "far fa-tag",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Alerts",
+    "imgsrc": "/assets/images/master/buy-box-analytics.png",
+    "linkPath": "/alert-control",
+    "sidebar": "/dashboard",
+    "icon": "far fa-chart-line",
+    "disable": false,
+    "childNav": [
+      "/alert-control/create",
+      "/alert-control/edit"
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Configuration",
+    "imgsrc": "/assets/images/master/clipboard-list.png",
+    "linkPath": "/createMaster",
+    "sidebar": "/dashboard",
+    "icon": "fas fa-file-alt",
+    "disable": false,
+    "menu": [
+      {
+        "as": "link",
+        "linkTitle": "Create Master",
+        "imgsrc": "/assets/images/master/clipboard-list.png",
+        "linkPath": "/createMaster",
+        "sidebar": "/dashboard",
+        "icon": "fas fa-file-alt",
+        "disable": true
+      },
+      {
+        "as": "link",
+        "linkTitle": "Content Score",
+        "imgsrc": "/assets/images/master/monitor-up.png",
+        "linkPath": "/createMaster/content-score-configuration",
+        "sidebar": "/dashboard",
+        "icon": "fas fa-solid fa-folder",
+        "disable": false
+      },
+      {
+        "as": "link",
+        "linkTitle": "Buy Box Seller Settings",
+        "imgsrc": "/assets/images/master/buy box seller settings.png",
+        "linkPath": "/createMaster/by-box-seller-settings",
+        "sidebar": "/dashboard",
+        "icon": "fas fa-cog",
+        "disable": false
+      },
+      {
+        "as": "link",
+        "linkTitle": "Weighted SOS",
+        "imgsrc": "/assets/images/wallet-info.png",
+        "linkPath": "/weighted-sos",
+        "sidebar": "/dashboard",
+        "icon": "far fa fa-bars",
+        "disable": false
+      }
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Project Configuration",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "linkPath": "https://qa-ds-conf.e-genie.ai/dashboard?emid=c2FnYXIudmVybWFAYWRnbG9iYWwzNjAuY29t&token=eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.xQmPs90UFdblJZeedlfxWdDu_AasWGbUJUsICF-yI_jCxV50rb0Kcdid1h1R_7wRs6YdkE8UxqxBS4jTm7O992MiksR27FY-srYk5JvRmzX1_-A3t-fxUnoGaY5fE-_K8JapkUPQzDHDBTbjlSVXbNCthSpzugx4lUwfWjJuTzmmG6Vgyw3w_3MXcm_yRq0SjdDu97IJ4P3JiBqjnEtplkSssBm-O8AvgKbow9oAseNm8xtH-goBXwH-y3hNMdolsX_taSP12LzaaGtn0GrAnabhEbfQDrxHtQbiz74VDx8QYMmt6wLQoSG6ou6w3RLGB9YTaZfJkHAtv90C8G4yMA.PKfEz02UBPoFI_Oq.ncrXzX7RXDrCaj-lA7AtdiI7YlMEl3C_94RlM06eI7TuDFgq706Sg4ueJ93SXJjY25Xdo8CyTm1WeWmCo5BC6kKonNqcQj230rMZ1O1JfM_r6RpSJNR2ZJ3DdAfIycXhbIplowpn01RpM1CG7bfjD69Uoo-Do5YNBx7ezoQfZy2E5My7_A722PIyFDLzeTk-r-IRxIM_VmNo5p2ETvORNqxr2lSy49D46o2qi40rO1_x-l-Lvd8yM4PDTUVl0FcC9D3qX-gxMgRbU6AFoIFgAwQSgcExl-VGnfxOLiPVO4kzm2lLpa8YO3ubjYJKFGD-cl4Cblc2SfaXVOjkrxBKncRMJHniltsY2Xpn7BQFLwoAk2fIJULhGvpbhKIu0srUqJBOMTdQL0MvF3fRHTZ7CG4FWUv6t1IaCF-Dvllqt13k7i9_Zi-CiEZzgw8qt5DV432l1yjH8u_0HbSsJuafPfJOq-Su8v7zttoV7YNCM48BlEUEHK88l6cmJXqTu7qUd82OOTtntoySpl3MTY10H8x0JQt9feFKglccsBC8zNjk3mR1ywhdZVr1UopYGN35doljuHYrWTVBktbYk_pSska5UatvVddx0JPaICOV2HyIf7Y_8yxht1RD4wDJ6lNEiP5IXYy-3BzsLa2QFaGMPhQBVrl-PEhnSImZNmJYKhts4zFwrQWxeEnHtB8yf0gj9DNnxS2do7D7_wxnNFy1UJOM0iJCxsWzgvLGECqP1M2J8yaPZ8AYPPWWr4QoUVcW1befal-WzEIWyFWWr559roUIJumuBhbp6q9jUsqGxpv-sSDmHzuYVkhod3uFNeNJfnFixxPjjaBQ_CSFxGenDud7BykPmS-AIwKrFC9nbqH42jsoYwBeg4F9PR6tw5yK1vmM2zdPeIB6-_pNgXap_x82txeCd-53poht5TuKbRIozT1JBVK9fQ4vIPaHVWxJTE_9SI3_sXDbobP5c6iZ7ePwulgFLRdiLDPBS8v2ZzUADadzfJSueEX3CzfkajtJGv6sZjzw6MqKs1u_qliUBHIk1-4dyagWzthFbZHRYgDALjSxLBnnFEV6W4I5vFb2QPJ4d_ap_rZqapnOXqSe8HFvcL3GbMclJwtOhOv7rOYlOx1XzJnJ7HWwnC18rlnELy_anmsgy-FBM4S4dXlDo-psyaXYxwsA8mfCCUFW-BgMdJKnE-ZK0nkAN4h8FvfFpTFP_D2F-g0wLHhgth8f1NRuXyJfm82vi4Eil_hASE-khNbv0QkA2BIgRHPKjm_uulGqjBXXFf0-_k1aFT0.07hK0qONBMCPrgmtLCAwDQ",
+    "sidebar": "/dashboard",
+    "icon": "far fa fa-bars",
+    "disable": false,
+    "externalRedirect": true
+  }
+]

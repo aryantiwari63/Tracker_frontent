@@ -1,0 +1,47 @@
+{
+    "draw": 1,
+    "iTotalRecords": 48,
+    "iTotalDisplayRecords": 24,
+    "blinkitperformtable": [
+        {
+            "campaign_name":"CG_Pmax_all_less ",
+            "spend":"₹56378",
+            "sales":2537,
+            "roas":1498,
+            "other":{
+                "badge":"campaign_name",
+                "type":"PCAtrans"
+             }
+        },
+        {
+            "campaign_name":"CG_Pmax_all_max1  ",
+            "spend":"₹36378",
+            "sales":1536,
+            "roas":1474,
+            "other":{
+                "badge":"campaign_name",
+                "type":"PCAtrans"
+             }
+        },{
+            "campaign_name":"CG_Pmax_all_less2 ",
+            "spend":"₹46365",
+            "sales":1536,
+            "roas":4496,
+            "other":{
+                "badge":"campaign_name",
+                "type":"PCAtrans"
+             }
+        },{
+            "campaign_name":"CG_Pmax_all_up  ",
+            "spend":"₹46378",
+            "sales":1536,
+            "roas":4496,
+            "other":{
+                "badge":"campaign_name",
+                "type":"PCAtrans"
+             }
+        }
+      
+      
+    ]
+}

@@ -1,0 +1,104 @@
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto; /* Let the browser determine column widths dynamically */
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+/* td.sticky::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  height: 100%;
+  width: 1px;
+  background-color: #d9d9d9;
+} */
+
+/* th.sticky::after {
+content: "";
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: calc(100% + 2px);
+width: calc(100% + 2px);
+background-color: transparent;
+z-index: -1;
+border: 1px solid #d9d9d9;
+} */
+.tblOuterSticky th::after,.tblOuterSticky td::after {
+content: "";
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: calc(100% + 2px);
+width: calc(100% + 2px);
+background-color: transparent;
+z-index: -1;
+border: 1px solid #d9d9d9;
+}
+.sticky {
+  position: sticky;
+  background-color: #f1f1f1;
+  z-index: 2;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  /* top: 0; */
+}
+
+th {
+  cursor: pointer;
+}
+
+th, td {
+  min-width: 100px; /* Minimum width to avoid collapsing */
+  word-wrap: break-word; /* Break long words */
+}
+
+.sticky + th,
+.sticky + td {
+  position: sticky;
+  left: 0;
+  /* background-color: white; */
+}
+
+.sticky {
+  z-index: 4 !important; /* Ensures the sticky columns appear on top */
+}
+.sticky.activeSkuTd {
+  z-index: 2 !important;
+}
+.sticky_sku_name.sticky.activeSkuTd {
+  z-index: 5 !important;
+}
+th.sticky_sku_name {
+  z-index: 7 !important;
+}
+.tableContentTabs .tblWrap thead {
+z-index: 7;
+}
+
+.sticky + th,
+.sticky + td {
+  left: 0;
+  z-index: 1;
+}
+
+/* Rating and review modal css */
+.tabs.active{
+  background-color: #FFFFFF !important;
+  color: #0081F7 !important;
+};
+

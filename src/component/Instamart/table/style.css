@@ -1,0 +1,43 @@
+.rule_table {
+    @apply row py-4;
+    align-items: center;
+  
+  
+  }
+  
+  .rule_table p {
+  
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  
+  }
+  
+  .rule_arrow {
+    display: none;
+  }
+  
+  .rules_outer_table th {
+    @apply pl-2;
+       --tw-bg-opacity: 1;
+      background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  
+    max-width: 40px;
+   
+  }
+  
+  
+  .rule_content td:nth-of-type(1){
+   width: 150px;
+   
+  }
+  
+  .rule_content td:nth-of-type(4){
+   width: 100px;
+  }
+  
+  .rule_content td:nth-of-type(5){
+   width: 80px;
+  }
+  

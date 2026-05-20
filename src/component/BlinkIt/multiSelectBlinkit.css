@@ -1,0 +1,17 @@
+/* Multi select dropdown hover theme - Blinkit */
+
+.p-dropdown-items>.p-dropdown-item:hover{
+    @apply !bg-blinkitPrimary
+  }
+  
+  .p-checkbox .p-checkbox-box.p-highlight{
+    @apply !border-blinkitPrimary !bg-blinkitPrimary
+  }
+  
+  .p-checkbox .p-checkbox-box .p-checkbox-icon.p-icon {
+    @apply  !bg-blinkitPrimary
+  }
+  
+  .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
+  background: #ebffee !important;
+  }

@@ -1,0 +1,25 @@
+.campaignreport__table th:nth-of-type(1) {
+    min-width: auto !important;
+}
+
+.campaignreport__table th:nth-of-type(2) {
+    left: auto !important;
+    min-width: auto !important;
+}
+
+
+
+.tablecontent td {
+    padding: 10px !important;
+}
+
+.tablecontent td:nth-of-type(1) {
+    min-width: auto !important;
+    text-align: center !important;
+}
+
+.tablecontent td:nth-of-type(2) {
+    left: auto !important;
+    min-width: auto !important;
+}
+

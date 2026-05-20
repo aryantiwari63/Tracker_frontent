@@ -1,0 +1,126 @@
+[
+    {
+        "header": [
+            {
+                "title": "ID",
+                "default": false
+            },
+            {
+                "title": "Campaign",
+                "default": true
+            },
+            {
+                "title": "State",
+                "default": true
+            },
+            {
+                "title": "Status",
+                "default": true
+            },
+            {
+                "title": "Type",
+                "default": true
+            },
+            {
+                "title": "Start_Date",
+                "default": true
+            },
+            {
+                "title": "End_Date",
+                "default": true
+            },
+            {
+                "title": "Budget",
+                "default": true
+            },
+            {
+                "title": "Targeting",
+                "default": true
+            },
+            {
+                "title": "Campaign_Bidding_Strategy",
+                "default": true
+            },
+            {
+                "title": "Portfolio",
+                "default": true
+            },
+            {
+                "title": "Top_of_Search_is",
+                "default": true
+            },
+            {
+                "title": "Cost_Type",
+                "default": true
+            },
+            {
+                "title": "Impressions",
+                "default": true
+            },
+            {
+                "title": " Clicks",
+                "default": true
+            },
+            {
+                "title": " CTR",
+                "default": true
+            },
+            {
+                "title": "Spend",
+                "default": true
+            },
+            {
+                "title": "Cpc",
+                "default": true
+            },
+            {
+                "title": "Orders",
+                "default": true
+            },
+            {
+                "title": "ACOS",
+                "default": true
+            },
+            {
+                "title": "ROAS",
+                "default": true
+            },
+            {
+                "title": " Percent_of_Orders_ntb",
+                "default": true
+            },
+            {
+                "title": "Viewable_Impressions",
+                "default": true
+            },
+            {
+                "title": "VCOM",
+                "default": true
+            },
+            {
+                "title": "created_dttm",
+                "default": true
+            },
+            {
+                "title": "modified_dttm",
+                "default": true
+            },
+            {
+                "title": "sales",
+                "default": true
+            },
+            {
+                "title": "_ntb_order",
+                "default": true
+            },
+            {
+                "title": "_ntb_sales",
+                "default": true
+            },
+            {
+                "title": "_percent_of_sales_ntb",
+                "default": true
+            }
+        ]
+    }
+]

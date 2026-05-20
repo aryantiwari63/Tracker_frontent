@@ -1,0 +1,28 @@
+.graphLabelOne{
+    width:10px;
+    height:10px;
+    background-color:rgb(63 162 253);
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.graphLabelTwo{
+    width:10px;
+    height:10px;
+    background-color: rgb(168 135 248);
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.commonscreen__card1 {
+  @apply bg-white h-full px-2 py-6 border  cursor-pointer min-w-[86px];
+    border-color: rgba(12, 13, 14, 0.08);
+    border-radius: 4px;
+    width: 8rem;
+    
+    
+}
+.commonscreen__card1:hover,
+.commonscreen__card1--active {
+  box-shadow: 1px 12px 22px -3px rgb(158 163 167 / 30%);
+  border-color: rgba(0, 129, 247, 0.8);
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "as": "link",
+    "linkTitle": "Home",
+    "imgsrc": "/assets/images/home-solid.svg",
+    "linkPath": "/zepto",
+    "sidebar": "/zepto",
+    "icon": "far fa-home-lg-alt"
+  },
+  {
+    "as": "submenu",
+    "linkTitle": "Advertising",
+    "imgsrc": "/assets/images/badge-ad.svg",
+    "sidebar": "/zepto",
+    "icon": "far fa-ad",
+    "menu": [
+      {
+        "linkTitle": "Campaign Manager",
+        "linkPath": "/zepto/campaign",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/zepto",
+        "icon": "far fa-file-search"
+      }
+    ]
+  },
+  {
+    "as": "submenu",
+    "linkTitle": "Report",
+    "imgsrc": "/assets/images/report-icon.svg",
+    "sidebar": "/zepto",
+    "icon": "fal fa-file-invoice",
+    "menu": [
+      {
+        "linkTitle": "Campaign",
+        "linkPath": "/zepto/reports/campaign",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/zepto",
+        "icon": "far fa-file-contract"
+      },
+      {
+        "linkTitle": "Category",
+        "linkPath": "/zepto/reports/category",
+        "imgsrc": "/assets/images/KW.svg",
+        "sidebar": "/zepto",
+        "icon": "fal fa-file-alt"
+      },
+      {
+        "linkTitle": "Keyword",
+        "linkPath": "/zepto/reports/keyword",
+        "imgsrc": "/assets/images/adgroup-icon.svg",
+        "sidebar": "/zepto",
+        "icon": "far fa-ad"
+      },
+      {
+        "linkTitle": "Product",
+        "linkPath": "/zepto/reports/product",
+        "imgsrc": "/assets/images/adgroup-icon.svg",
+        "sidebar": "/zepto",
+        "icon": "far fa-ad"
+      }
+    ]
+  },  
+  {
+    "as": "link",
+    "linkTitle": "Manage Report",
+    "linkPath": "/zepto/customreport",
+    "imgsrc": "/assets/images/createcustomreportblinkit.svg",
+    "sidebar": "/zepto",
+    "icon": "fas fa-edit",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Rules",
+    "linkPath": "/zepto/rules",
+    "imgsrc":"/assets/images/rules.icon.svg",
+    "sidebar":"/flipkart",
+    "icon":"far fa-chart-line",
+    "disable":false
+},
+
+{
+  "as": "link",
+  "linkTitle": "Budget",
+  "linkPath": "/zepto/budget-trend",
+  "imgsrc": "/assets/images/wallet-info.png",
+  "sidebar": "/zepto",
+  "icon": "far fa-analytics",
+  "disable": false
+},
+  {
+    "as": "link",
+    "linkTitle": "Action Activity",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "linkPath": "/zepto/action-activity",
+    "sidebar": "/zepto",
+    "icon": "fa fa-list-alt"
+  }
+]

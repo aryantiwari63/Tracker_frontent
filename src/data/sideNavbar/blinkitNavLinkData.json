@@ -1,0 +1,99 @@
+[
+  {
+    "as": "link",
+    "linkTitle": "Home",
+    "imgsrc": "/assets/images/home-solid.svg",
+    "linkPath": "/blinkit",
+    "sidebar": "/blinkit",
+    "icon": "far fa-home-lg-alt"
+  },
+  {
+    "as": "submenu",
+    "linkTitle": "Advertising",
+    "imgsrc": "/assets/images/badge-ad.svg",
+    "sidebar": "/blinkit",
+    "icon": "far fa-ad",
+    "menu": [
+      {
+        "linkTitle": "Campaign Manager",
+        "linkPath": "/blinkit/campaign",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/blinkit",
+        "icon": "far fa-file-search"
+      },
+      {
+        "linkTitle": "Negative Keyword",
+        "linkPath": "/blinkit/negativekeyword",
+        "imgsrc": "/assets/images/navigatesearch.svg",
+        "sidebar": "/flipkart",
+        "icon": "far fa-bullhorn"
+      }
+    ]
+  },
+ 
+  {
+    "as": "submenu",
+    "linkTitle": "Report",
+    "imgsrc": "/assets/images/report-icon.svg",
+    "sidebar": "/blinkit",
+    "icon": "fal fa-file-invoice",
+    "menu": [
+      {
+        "linkTitle": "Campaign",
+        "linkPath": "/blinkit/reports/campaign",
+        "imgsrc": "/assets/images/campaign-icon.svg",
+        "sidebar": "/blinkit",
+        "icon": "far fa-file-contract"
+      },
+      {
+        "linkTitle": "Category",
+        "linkPath": "/blinkit/reports/category",
+        "imgsrc": "/assets/images/KW.svg",
+        "sidebar": "/blinkit",
+        "icon": "fal fa-file-alt"
+      },
+      {
+        "linkTitle": "Keyword",
+        "linkPath": "/blinkit/reports/keyword",
+        "imgsrc": "/assets/images/adgroup-icon.svg",
+        "sidebar": "/blinkit",
+        "icon": "far fa-ad"
+      }
+    ]
+  },
+  {
+    "as": "link",
+    "linkTitle": "Manage Report",
+    "imgsrc": "/assets/images/createcustomreportblinkit.svg",
+    "linkPath": "/blinkit/customreport",
+    "sidebar": "/blinkit",
+    "icon": "fas fa-edit"
+  },
+  
+  {
+    "as": "link",
+    "linkTitle": "Rules",
+    "linkPath": "/blinkit/rules",
+    "imgsrc": "/assets/images/rules.icon.svg",
+    "sidebar": "/flipkart",
+    "icon": "far fa-chart-line",
+    "disable": false
+  },
+ {
+    "as": "link",
+    "linkTitle": "Budget",
+    "linkPath": "/blinkit/budget-trend",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "sidebar": "/blinkit",
+    "icon": "far fa-analytics",
+    "disable": false
+  },
+  {
+    "as": "link",
+    "linkTitle": "Action Activity",
+    "imgsrc": "/assets/images/wallet-info.png",
+    "linkPath": "/blinkit/action-activity",
+    "sidebar": "/blinkit",
+    "icon": "fa fa-list-alt"
+  }
+]
