@@ -1,4 +1,0 @@
-.custom-radio:checked + label::before {
-  background-color: orange;
-  border-color: orange;
-}

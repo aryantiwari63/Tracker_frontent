@@ -18,9 +18,9 @@ import {
 import { useClientPermission } from "../../../context/ClientPermissionContext";
 //import HeaderDatePicker from "./HeaderDatePicker";
 //import { BsSliders2 } from "react-icons/bs";
-import Drawer from "@mui/material/Drawer";
-import DrawerEdit from "./Drawer/DrawerEdit"
-import { useEbuxContext } from "../../Ebux/Context/EbuxProvider";
+// import Drawer from "@mui/material/Drawer";
+// import DrawerEdit from "./Drawer/DrawerEdit"
+//import { useEbuxContext } from "../../Ebux/Context/EbuxProvider";
 //import { Radio, RadioGroup, FormControlLabel } from "@mui/material";
 
 import { APPLICATION_ROUTES } from "../../../utils/constants";
@@ -31,29 +31,30 @@ import { APPLICATION_ROUTES } from "../../../utils/constants";
 // export default ToastPortal;
 
 const Header = () => {
-  const {
-    ebuxLoading,
-    // selectedFilters,
-    //kpi,
-    headerFilterChips,
-    // filtersDarkStore,
-    // setHeaderFilterChips,
-    selectedHeaderOpen, setSelectedHeaderOpen,
-    // filtersLoading,  selectedMsl,
- //activeClientProject, updateSelectedMSLV2,
+//   const {
+//     ebuxLoading,
+//     // selectedFilters,
+//     //kpi,
+//    // headerFilterChips,
+//     // filtersDarkStore,
+//     // setHeaderFilterChips,
+//   //  selectedHeaderOpen,
+//    //setSelectedHeaderOpen,
+//     // filtersLoading,  selectedMsl,
+//  //activeClientProject, updateSelectedMSLV2,
 
-    //selectedFiltersWidget,
-    setSelectedFilters,
-    setFilters,
-   // setSelectedMsl,
-    setSelectedFiltersWidget,
-    setFiltersDarkStore,
-    setEbuxLoading,
-    tempFilterData,
-    setTempFilterData,
-    errorToSetFilterData,
-    setErrorToSetFilterData
-  } = useEbuxContext();
+//     //selectedFiltersWidget,
+//     setSelectedFilters,
+//     setFilters,
+//    // setSelectedMsl,
+//     setSelectedFiltersWidget,
+//     setFiltersDarkStore,
+//     setEbuxLoading,
+//     tempFilterData,
+//     setTempFilterData,
+//     errorToSetFilterData,
+//     setErrorToSetFilterData
+//   } = useEbuxContext();
 
   const { clientPermission } = useClientPermission();
   console.log('clientPermission', clientPermission)
@@ -213,9 +214,9 @@ const Header = () => {
 
   // const [selected, setSelected] = useState({});
 
-  const toggleDrawer = (type, newOpen) => () => {
-    setSelectedHeaderOpen({ [type]: newOpen });
-  };
+  // const toggleDrawer = (type, newOpen) => () => {
+  //   setSelectedHeaderOpen({ [type]: newOpen });
+  // };
   const accounts = useMemo(() => {
     if (active_client_project?.globalView) {
       return [...new Set((client_projects ?? [])?.map(i => i?.account))];
@@ -587,17 +588,17 @@ const Header = () => {
 
           </div>
         </div>
-        <Drawer
+        {/* <Drawer
           open={selectedHeaderOpen?.edit}
           onClose={toggleDrawer("edit", false)}
           anchor={"right"}
           className="!z-[99999]"
         >
           <DrawerEdit onClose={toggleDrawer("edit", false)} defaultSelected={headerFilterChips} />
-        </Drawer>
+        </Drawer> */}
 
       </div>
-      {
+      {/* {
         ebuxLoading ? (<div className="w-full h-screen grid justify-items-stretch align-middle bg-black/50 overflow-hidden bg-opacity-50 absolute top-0 right-0 bottom-0 left-0 z-[999999999999]">
           <img
             className="w-1/6 justify-self-center inline-block align-middle mt-48 "
@@ -703,7 +704,7 @@ const Header = () => {
 
           </div>
         ) : null
-      }
+      } */}
     </>
   );
 };

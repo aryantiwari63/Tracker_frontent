@@ -1,6 +1,0 @@
-#popup-container-keyword {
-  @apply bg-white pb-4 rounded-lg overflow-hidden;
-  animation: slideUpToDown 1s;
-  width: 30%;
-  font-size: 13px;
-}
