@@ -6,7 +6,7 @@ import { AuthContext } from "../../context/authContext";
 import { LOGIN_API_URL, APPLICATION_ROUTES } from "../../utils/constants";
 import { _GET, _POST } from "../../services/axios.method";
 import { useHistory } from "react-router-dom";
-import { postPlatormData } from "../../redux/action-creator/platformAction";
+//import { postPlatormData } from "../../redux/action-creator/platformAction";
 import { useDispatch } from "react-redux";
 import { setUserProperty } from "../../analytics/EventController";
 import Helpdesk from "../helpdesk/Helpdesk";
@@ -113,9 +113,9 @@ const Login = () => {
         if (response.data.status.code === 400) {
           setError(response.data.status.message);
         }
-        if (platform) {
-          dispatch(postPlatormData(platform));
-        }
+        // if (platform) {
+        //   dispatch(postPlatormData(platform));
+        // }
 
         if (token) {
           localStorage.setItem("token", JSON.stringify(token));
