@@ -31,7 +31,7 @@ import { faGraduationCap, faPlus, faXmark } from "@fortawesome/free-solid-svg-ic
 // import { DateRangeProvider } from "./component/common-components/main-layout/HeaderDatePicker/context/dateRangeProvider";
 import { createPortal } from 'react-dom';
 import { Toaster } from 'react-hot-toast';
-import LearningCenter from "./component/learning-center/LearningCenter";
+//import LearningCenter from "./component/learning-center/LearningCenter";
 import ImagePreviewModal from "./component/learning-center/ImagePreviewModal";
 
 
@@ -166,14 +166,13 @@ useEffect(() => {
             {/* </EbuxProvider> */}
           {/* </DateRangeProvider> */}
         </AuthProvider>
-        
-     <LearningCenter previewImg={previewImg} setPreviewImg={setPreviewImg}/>
+{/*         
+     <LearningCenter previewImg={previewImg} setPreviewImg={setPreviewImg}/> */}
         {previewImg && (
  
   <ImagePreviewModal previewImg={previewImg} setPreviewImg={setPreviewImg}/>
 )}
    
-        {/* <Helpdesk /> */}
 
         <AuthManager/>
       </Router>

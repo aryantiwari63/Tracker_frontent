@@ -3,20 +3,20 @@ import React, { useContext, useEffect } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import { _POST } from "../../services/axios.method";
 import { APPLICATION_ROUTES, TOKEN_LOGIN_API_URL } from "../../utils/constants";
-import { postPlatormData } from "../../redux/action-creator/platformAction";
-import { useDispatch } from "react-redux";
+// import { postPlatormData } from "../../redux/action-creator/platformAction";
+// import { useDispatch } from "react-redux";
 import { setUserProperty } from "../../analytics/EventController";
 import { AuthContext } from "../../context/authContext";
 import { useClientPermission } from "../../context/ClientPermissionContext";
-import { useEbuxContext } from "../Ebux/Context/EbuxProvider";
+// import { useEbuxContext } from "../Ebux/Context/EbuxProvider";
 //import { ConnectedOverlayScrollHandler } from "primereact/utils";
 
 const TokenLogin = () => {
-  const { setActiveClientProject } = useEbuxContext()
+  // const { setActiveClientProject } = useEbuxContext()
   const { search } = useLocation();
   const searchParams = new URLSearchParams(search);
   const history = useHistory();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const authContext = useContext(AuthContext);
 
   const { setClientPermission } = useClientPermission(null);
@@ -29,7 +29,7 @@ const TokenLogin = () => {
         const id_token = searchParams.get("id_token");
         const access_token = searchParams.get("access_token");
         const refresh_token = searchParams.get("refresh_token");
-
+ console.log("login tokenn tracker");
         if (!id_token || !access_token || !refresh_token || !client_id) {
           // history.push("/");
           return;
@@ -74,9 +74,9 @@ const TokenLogin = () => {
           const full_name = response?.data?.data?.data?.full_name;
           console.log('client_projectsclient_projects', client_projects)
 
-          if (platform) {
-            dispatch(postPlatormData(platform));
-          }
+          // if (platform) {
+          //   dispatch(postPlatormData(platform));
+          // }
 
           localStorage.setItem("token", token);
           localStorage.setItem("name", userDetails);
@@ -88,7 +88,7 @@ const TokenLogin = () => {
           localStorage.setItem("user_id", user_id);
           localStorage.setItem("client_projects", JSON.stringify(client_projects));
           localStorage.setItem("active_client_project", JSON.stringify(active_client_project));
-          setActiveClientProject(active_client_project)
+          // setActiveClientProject(active_client_project)
 
           localStorage.setItem(
             "platforms",

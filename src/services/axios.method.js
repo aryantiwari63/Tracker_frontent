@@ -58,7 +58,7 @@ export async function _GET(url) {
 
 export async function _GETWIthToken(url) {
   try {
-      let id_token = localStorage.getItem("id_token");
+      let id_token = localStorage.getItem("idtoken");
     let client_id = localStorage.getItem("client_id");
     const response = await Axios.get(`${url}?clientId=${client_id}`, {
       headers: {

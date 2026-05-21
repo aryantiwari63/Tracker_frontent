@@ -17,7 +17,7 @@ export const APPLICATION_ROUTES = {
   ZEPTO: "/zepto",
   INSTAMART: "/instamart",
   // HOME: "/",
-  DASHBOARD: "/",
+  DASHBOARD: "/DASHBOARD",
   TOKEN_LOGIN: "/login",
   AMAZONCAMPAING: "/amazon/campaign",
   FLIPKARTCAMPAING: "/flipkart/campaign",

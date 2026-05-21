@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { collapse, firstcollapse } from "../../../redux/action-creator/sideBarAction";
 // import CommonHeader  from '../../CommonSidebar/CommonHeader';
 import './style.css'
+import UserList from "../../userList";
 
 // import openDrawerIcon from "./icons/openDrawer.svg";
 
@@ -83,37 +84,7 @@ dispatch(firstcollapse(false))
     <>
       {/* <div className=" mainlayout w-[calc(100vw_-94px)]"> */}
       <div className=" mainlayout w-[calc(100vw_-97px)]">
-        {/* <div className="row border-2">
-             <Header/> 
-            </div> */}
-
-        {/* <div className="mainlayout__sidenav">
-          <div className={`sideNavOuter ${expand ? 'collapsed' : 'expanded'}`}>
-            <SideNav
-              // expand={true}
-              expand={expandState}
-              platform={platform}
-              setPlatform={setPlatform}
-              data={sidebarData}
-            />
-            <div className="sidebarArrowBtnWrap" onClick={() => {
-              setExpand(!expand);
-              dispatch(collapse(expand));
-            }}>
-              <button className="sidebarArrowBtn" type="button" >
-                <img
-                
-          src={openDrawerIcon}
-          width={14}
-          height={53}
-                  // src="/assets/images/sidebarArrow.svg"
-                  alt="Sidebar"
-                  loading="eager"
-                />
-              </button>
-            </div>
-          </div>
-        </div> */}
+    
       
         <div id="mainlayout__main_page"
           className="col overflow-auto bg-[#F0F2F5]"
@@ -140,26 +111,12 @@ dispatch(firstcollapse(false))
             platform={sidebarData[0]?.sidebar || "/dashboard"}
             setPlatform={setPlatform}
           /> 
-{/* <CommonHeader/>
-         <div className="mt-4 mx-6 z-[500] sticky top-0 right-0"> <Header
-            // expand={true}
-            expand={expandState}
-            // setExpand={setExpand}
-            setExpand={() => {
-              setExpand(!expand);
-              dispatch(collapse(expand));
-            }}
-            platform={sidebarData[0]?.sidebar || "/dashboard"}
-            setPlatform={setPlatform}
-          /></div> */}
-          {/* <div className="p-3">{children}</div> */}
+
           <div className="min-h-[600px]">
-          <div className="p-3">User List</div>
+          <div className="p-3"><UserList/></div>
 </div>
           </div>
-          {/* <SelectDropDrown/> */}
-          {/* <AmazonTable/> */}
-          {/* <CampBar/> */}
+        
         </div>
       </div>
       

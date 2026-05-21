@@ -1,4 +1,4 @@
-
+import TokenLogin from "../component/login/TokenLogin";
 import { APPLICATION_ROUTES, APP_ROLE } from "../utils/constants";
 
 import {
@@ -24,6 +24,17 @@ let availableRoutes= [
     visibleAfterLogin: true,
     sidebar: "/dashboard",
   },
+
+  {
+     routePath: APPLICATION_ROUTES.TokenLogin,
+    component: TokenLogin,
+    isPrivate: false,
+    accessRoles: [
+      
+    ],
+    visibleAfterLogin: true,
+    sidebar: "/dashboard",
+  }
 ];
 
 export default availableRoutes;
