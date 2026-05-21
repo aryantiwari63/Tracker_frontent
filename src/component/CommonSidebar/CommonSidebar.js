@@ -21,7 +21,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { getLocalSidebarMenu, setLocalSidebarMenu } from "./helpers.js";
 // import CommonHeader from "./CommonHeader.js";
 import { useSelector } from "react-redux";
-import { useEbuxContext } from "../Ebux/Context/EbuxProvider.js";
+//import { useEbuxContext } from "../Ebux/Context/EbuxProvider.js";
 
 
 const NewCommonSidebar = ({ children }) => {
@@ -210,10 +210,12 @@ const ProductLink = ({
 };
 
 function NestedSidebar() {
-  const {
-    activeClientProject
-  } = useEbuxContext();
+  // const {
+  //   activeClientProject
+  // } = useEbuxContext();
 
+  const activeClientProject = JSON.parse(localStorage.getItem("active_client_project")) || {};
+  
   const role = localStorage.getItem("role");
   let { dataSyncTime } = useSelector((state) => state?.SideBarReducer);
   const location = useLocation();
@@ -486,9 +488,12 @@ function NestedSidebar() {
 }
 
 const ChildMenu = ({ item, isActive, handleEvent }) => {
-  const {
-    activeClientProject
-  } = useEbuxContext();
+  // const {
+  //   activeClientProject
+  // } = useEbuxContext();
+  
+  const activeClientProject = JSON.parse(localStorage.getItem("active_client_project")) || {};
+
   return (
     <div className="mx-[8px] my-2">
       <div className="bg-[#3A3C3E] rounded-[4px]">

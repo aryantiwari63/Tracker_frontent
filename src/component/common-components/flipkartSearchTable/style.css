@@ -1,7 +1,0 @@
-.totalData{
-    color:red
-}
-
-.p-dropdown-items-wrapper> .p-dropdown-items> .p-dropdown-item:hover{
-    @apply !bg-flipkartPrimary
-  }

@@ -1,7 +1,7 @@
 import moment from "moment/moment";
 import Axios from "axios";
 import { addDays } from "date-fns";
-import { platformColor } from "./colorConstant";
+// import { platformColor } from "./colorConstant";
 import toast from "react-hot-toast";
 // import { useDispatch } from "react-redux";
 
@@ -263,16 +263,16 @@ export const getLocalStorageAccounts = () => {
   }
 };
 
-export function thStyle(column, platform) {
-  if (column == "dsa") {
-    return {
-      borderTop: "none !important",
-      borderBottom: "none !important",
-      boxShadow: `inset 0px -4px 0 ${platformColor[platform][500]}`,
-      background: platformColor[platform][200],
-    };
-  } else return { borderTop: "" };
-}
+// export function thStyle(column, platform) {
+//   if (column == "dsa") {
+//     return {
+//       borderTop: "none !important",
+//       borderBottom: "none !important",
+//       boxShadow: `inset 0px -4px 0 ${platformColor[platform][500]}`,
+//       background: platformColor[platform][200],
+//     };
+//   } else return { borderTop: "" };
+// }
 
 export const saveLocalStorageAccounts = (items = []) => {
   localStorage.setItem("savedAccounts", JSON.stringify(items));

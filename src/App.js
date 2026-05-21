@@ -22,7 +22,7 @@ import { useSelector } from "react-redux";
 import StandardErrorBoundary from "./services/errorBoundary";
 import { ScreenPath, setUserProperty } from "./analytics/EventController";
 import config from "../src/appConfig.json";
-import { EbuxProvider } from "./component/Ebux/Context/EbuxProvider";
+//import { EbuxProvider } from "./component/Ebux/Context/EbuxProvider";
 import { ClientPermissionProvider } from "./context/ClientPermissionContext";
 import { analytics } from "./services/firebase";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -119,7 +119,7 @@ useEffect(() => {
         <ScreenPath /> 
         <AuthProvider>
           {/* <DateRangeProvider> */}
-            <EbuxProvider>
+            {/* <EbuxProvider> */}
               <ClientPermissionProvider>
               {/* <StandardErrorBoundary> */}
                 <React.Suspense
@@ -163,7 +163,7 @@ useEffect(() => {
                 <ToastPortal/>
               {/* </StandardErrorBoundary> */}
               </ClientPermissionProvider>
-            </EbuxProvider>
+            {/* </EbuxProvider> */}
           {/* </DateRangeProvider> */}
         </AuthProvider>
         
