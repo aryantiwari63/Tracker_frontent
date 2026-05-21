@@ -154,7 +154,7 @@ dispatch(firstcollapse(false))
           /></div> */}
           {/* <div className="p-3">{children}</div> */}
           <div className="min-h-[600px]">
-          <div className="p-3">welcome</div>
+          <div className="p-3">User List</div>
 </div>
           </div>
           {/* <SelectDropDrown/> */}

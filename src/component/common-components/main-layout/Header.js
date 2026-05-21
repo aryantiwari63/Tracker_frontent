@@ -16,16 +16,16 @@ import {
 
 // import egenie from "../../CommonSidebar/icons/egenie.svg";
 import { useClientPermission } from "../../../context/ClientPermissionContext";
-import HeaderDatePicker from "./HeaderDatePicker";
+//import HeaderDatePicker from "./HeaderDatePicker";
 //import { BsSliders2 } from "react-icons/bs";
 import Drawer from "@mui/material/Drawer";
 import DrawerEdit from "./Drawer/DrawerEdit"
 import { useEbuxContext } from "../../Ebux/Context/EbuxProvider";
-import { Radio, RadioGroup, FormControlLabel } from "@mui/material";
+//import { Radio, RadioGroup, FormControlLabel } from "@mui/material";
 
 import { APPLICATION_ROUTES } from "../../../utils/constants";
-import { getCombineFilterWidget } from "../../Ebux/services/ebux.service";
-import HeaderWeekPicker from "./HeaderDatePicker/HeaderWeekPicker";
+//import { getCombineFilterWidget } from "../../Ebux/services/ebux.service";
+//import HeaderWeekPicker from "./HeaderDatePicker/HeaderWeekPicker";
 
 
 // export default ToastPortal;
@@ -33,18 +33,19 @@ import HeaderWeekPicker from "./HeaderDatePicker/HeaderWeekPicker";
 const Header = () => {
   const {
     ebuxLoading,
-    kpi, selectedFilters,
-    headerFilterChips, filtersDarkStore,
+    // selectedFilters,
+    //kpi,
+    headerFilterChips,
+    // filtersDarkStore,
     // setHeaderFilterChips,
     selectedHeaderOpen, setSelectedHeaderOpen,
-    // filtersLoading,
+    // filtersLoading,  selectedMsl,
+ //activeClientProject, updateSelectedMSLV2,
 
-    selectedMsl, activeClientProject, updateSelectedMSLV2,
-
-    selectedFiltersWidget,
+    //selectedFiltersWidget,
     setSelectedFilters,
     setFilters,
-    setSelectedMsl,
+   // setSelectedMsl,
     setSelectedFiltersWidget,
     setFiltersDarkStore,
     setEbuxLoading,
@@ -232,39 +233,7 @@ const Header = () => {
 
   }, [active_client_project])
 
-
-  const handleChange = async (event) => {
-    const value = event.target.value;
-    //  console.log('valuevalue',value)
-    if ([2].indexOf(activeClientProject?.client_project_id) > -1) {
-      let combineFilterWidget;
-      if (activeClientProject?.isFilterDateWise) {
-        const dateRangeData = { calendarType: selectedFilters?.calendarType, selectedDateRange: selectedFilters?.selectedDateRange, selectedWeeks: selectedFilters?.selectedWeeks };
-        combineFilterWidget = await getCombineFilterWidget("OSA", (selectedFiltersWidget.selectedPlatform?.map(i => i.value) ?? []), (selectedFiltersWidget.selectedBrand?.flatMap(i => i.id_in_db) ?? []), (selectedFiltersWidget.selectedCategory?.flatMap(i => i.id_in_db) ?? []), (selectedFiltersWidget.selectedMotherPack?.map(i => i.value) ?? []), ([]), value, [], dateRangeData);
-      } else {
-        combineFilterWidget = await getCombineFilterWidget("OSA", (selectedFiltersWidget.selectedPlatform?.map(i => i.value) ?? []), (selectedFiltersWidget.selectedBrand?.flatMap(i => i.id_in_db) ?? []), (selectedFiltersWidget.selectedCategory?.flatMap(i => i.id_in_db) ?? []), (selectedFiltersWidget.selectedMotherPack?.map(i => i.value) ?? []), ([]), value);
-      }
-
-      setFilters(prevFilters => ({
-        ...prevFilters,
-        platform: combineFilterWidget?.platforms ?? [],
-        brand: combineFilterWidget?.brands ?? [],
-        category: combineFilterWidget?.categories ?? [],
-        mother_pack: combineFilterWidget?.mother_packs ?? [],
-        products: combineFilterWidget?.products ?? [],
-      }));
-
-      setSelectedFilters(prevFilters => ({
-        ...prevFilters,
-        selectedProductId: (combineFilterWidget?.products ?? []),
-        selectedPlatform: (combineFilterWidget?.platforms ?? []),
-      }));
-      setSelectedMsl(value);
-    } else {
-      updateSelectedMSLV2(value);
-    }
-  };
-  return (
+ return (
     <>
       <div className="header px-2 pl-6" id="header-custom">
 
@@ -275,73 +244,7 @@ const Header = () => {
           <div className=" header__rightMenu relative">
 
 
-            {((header?.[0]?.showHeaderCalender == false) ? <></> :
-              (filtersDarkStore?.tab_type == "trend_analysis" || (activeClientProject?.calendarType == "week")
-                ?
-                <HeaderWeekPicker compareModeOn={filtersDarkStore?.tab_type != "trend_analysis"} isFilterDateWise={activeClientProject?.isFilterDateWise} />
-                :
-                <HeaderDatePicker isFilterDateWise={activeClientProject?.isFilterDateWise} />
-              ))}
-            {
-              (([2].indexOf(activeClientProject?.client_project_id) > -1) && active_client_project?.isUseWidget && (["SOS", "OR", "SOM"]?.indexOf(kpi) == -1)) ?
-                <div className="flex items-center gap-2 pl-[0px] rounded-full ">
-                  <span className="text-sm font-semibold text-gray-800">Product Filter:</span>
-                  <RadioGroup
-                    row
-                    value={selectedMsl}   // 🔹 bind global state
-                    onChange={handleChange}
-                    className="flex items-center text-xs pl-2"
-                  >
-                    <FormControlLabel
-                      value="all"
-                      control={
-                        <Radio
-                          color="primary"
-                          sx={{
-                            transform: "scale(1)", // smaller radio
-                            padding: "0px",
-                          }}
-                        />
-                      }
-                      disabled={[101, 102].includes(activeClientProject?.client_project_id)}
-                      label="All"
-                      slotProps={{
-                        typography: {
-                          className: `!text-[12px] ${selectedMsl === "all" ? "font-bold text-blue-600" : ""}`,
-                        },
-                      }}
-                    />
-                    <FormControlLabel
-                      value="msl"
-                      control={
-                        <Radio
-                          color="primary"
-                          sx={{
-                            transform: "scale(1)",
-                            padding: "0px",
-                          }}
-                        />
-                      }
-                      disabled={[101, 102].includes(activeClientProject?.client_project_id)}
-                      label="MSL"
-                      slotProps={{
-                        typography: {
-                          className: `!text-[12px] ${selectedMsl === "msl" ? "font-bold text-blue-600 " : ""}`,
-                        },
-                      }}
-                    />
-                  </RadioGroup>
-                </div>
-                :
-                <></>
-            }
-
-            {/* {
-              (active_client_project?.isUseWidget) ?
-                ((header?.[0]?.headerFilter == false) ? <></> :
-                  <button disabled={filtersLoading} className={`flex flex-row gap-1 border-[1px] border-[#D9D9D9] px-3 py-2.5 rounded-md items-center text-[#000000D9] ${filtersLoading ? "cursor-not-allowed opacity-50" : "cursor-pointer"}`} onClick={() => toggleDrawer("edit", true)()}><BsSliders2 />Filter</button>
-                ) : <></>
-            } */}
+           
             {
               (active_client_project?.globalView) ?
 
