@@ -49,7 +49,6 @@ const NewCommonSidebar = ({ children }) => {
 
     // To move Media Automation Management on top
     newList.sort((a, b) => (a.id === 1 ? -1 : b.id === 1 ? 1 : 0));
-    // console.log('newListnewList',newList)
     setList(newList);
   };
 
